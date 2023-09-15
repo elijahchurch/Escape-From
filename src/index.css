@@ -24,4 +24,10 @@ body {
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 20px;
+  text-align: left;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
 }

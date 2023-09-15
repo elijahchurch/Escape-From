@@ -1,6 +1,21 @@
+import Option from "./Option";
+import React from "react";
+
 const OptionList = () => {
+
+const options : string[] = [
+    "option1",
+    "option2",
+    "option3",
+    "option4",
+    "option5"
+]
     return (
-        <h1>Options!!!</h1>
+        <div className="column">
+            {options.map((element, index) => (
+                <Option label={element} conditional={true} resultId={2} key={index}/>
+            ))}
+        </div>
     )    
 }
 

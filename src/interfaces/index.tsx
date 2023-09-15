@@ -1,4 +1,4 @@
-export interface Item {
+export interface IItem {
     id: number, 
     img?: string,
     uses: number,
@@ -6,17 +6,17 @@ export interface Item {
     rarity: string
 }
 
-export interface Character {
+export interface ICharacter {
     id: number,
     portait?: string,
     altPortrait?: string,
     flavor: string,
-    inventory: Item[]
+    inventory: IItem[]
 }
 
-export type Conditional = (inventory: Item[]) => boolean
+export type Conditional = (inventory: IItem[]) => boolean
 
-export interface Option {
+export interface IOption {
     //Note: id points to a story option. It is not unique to the option. Options in different pages may have the same id, which points to the same page that it can move to.
     resultId: number,
     label: string,
@@ -34,9 +34,9 @@ export interface Option {
 // const option : Option = {resultId: 5, label : "You open the door", conditional: true}
 // const option : Option = {resultId: 5, label : "Open door with key", conditional: (inventory) => inventory.find(({id}) => id === 1) !== undefined}
 
-export interface Page {
+export interface IPage {
     id: number,
     preludeText: string,
     eventText: string,
-    options: Option[]
+    options: IOption[]
 }
