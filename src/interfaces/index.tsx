@@ -14,13 +14,25 @@ export interface Character {
     inventory: Item[]
 }
 
+export type Conditional = (inventory: Item[]) => boolean
+
 export interface Option {
     //Note: id points to a story option. It is not unique to the option. Options in different pages may have the same id, which points to the same page that it can move to.
     resultId: number,
     label: string,
-    itemAssociation ?: number,
-    conditional: Function | boolean, 
+    conditional: Conditional | boolean 
 }
+
+//Reference if interFace has an associatedItemId:
+// associatedItemId: number,
+// const hasItem = (inventory: Item[], option: Option) => {
+//     const item = inventory.find(item => item.id === option.associatedItemId);
+//     return item !== undefined;
+// }
+
+// Reference for options: 
+// const option : Option = {resultId: 5, label : "You open the door", conditional: true}
+// const option : Option = {resultId: 5, label : "Open door with key", conditional: (inventory) => inventory.find(({id}) => id === 1) !== undefined}
 
 export interface Page {
     id: number,
