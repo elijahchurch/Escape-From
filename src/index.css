@@ -27,6 +27,17 @@ body {
   text-align: left;
 }
 
+.storyOptions {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right:  auto;
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  border-radius: 8px;
+
+}
+
 .column{
   display: flex;
   flex-direction: column;

@@ -3,7 +3,7 @@ import {IOption} from "../interfaces"
 
 const Option = (option: IOption) => {
     return (
-        <button>{option.label}</button>
+        <button className="storyOptions">{option.label}</button>
     )
 } 
 
