@@ -9,10 +9,10 @@ const NewGame = () => {
     let pageToDisplay = null
     if (gameStart === false) {
         pageToDisplay =
-            <React.Fragment>
+            <div>
                 <Start />
                 <button onClick={() => setGameStart(true)}>Start New Game</button>
-            </React.Fragment>
+            </div>
     }
     else {
         pageToDisplay = <Game />

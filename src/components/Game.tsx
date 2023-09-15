@@ -1,6 +1,10 @@
+import Book from "./Book";
+
 const Game = () => {
+
+    //Will toggle between various screens but for now just want to render book component
     return(
-        <h1>Let's Goooo!!!</h1>
+        <Book/>
     )
 }
 
