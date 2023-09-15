@@ -40,6 +40,8 @@ body {
 
 #picturePage{
   border-style: solid;
+  height: 50%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 
@@ -47,4 +49,8 @@ body {
 .column{
   display: flex;
   flex-direction: column;
+}
+
+.fill{
+  width: 100%;
 }

@@ -5,7 +5,7 @@ import InventoryList from "./InventoryList";
 const RightPage = () => {
     return(
         <div className="page">
-            <div className="column">
+            <div className="column fill">
                 <PicturePage/>
                 <CharacterInfo/>
                 <InventoryList/>
