@@ -4,7 +4,14 @@ body {
 
 .book {
   width: 70%;
+  height: 600px;
   display: flex;
   margin: 0 auto;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
   border-style: solid;
+  width: 50%;
 }
