@@ -1,12 +1,16 @@
 body {
+  block-size: auto;
   text-align: center;
 }
 
 .book {
   width: 70%;
-  height: 600px;
+  height: 700px;
   display: flex;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
 }
 
 .page {
@@ -14,4 +18,10 @@ body {
   flex-direction: row;
   border-style: solid;
   width: 50%;
+}
+
+#storyText{
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
