@@ -1,10 +1,10 @@
-import React from 'react';
+import NewGame from "./NewGame";
 
 
-function App() {
+const App = () => {
   return (
-    <h1>Hi!!</h1>
-  );
+    < NewGame/>
+  )
 }
 
 export default App;
