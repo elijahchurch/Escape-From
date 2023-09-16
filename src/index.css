@@ -80,3 +80,20 @@ body {
   width: 70%;
   padding: 8px;
 }
+
+#inventoryGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item{
+  border-style: solid;
+  height: 60px
+}
+
+#inventoryHeader {
+  margin-bottom: 5px;
+}
