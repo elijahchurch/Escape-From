@@ -1,0 +1,17 @@
+[
+    {
+        "id": "chara01",
+        "name": "Barbara the Barbarian",
+        "flavor": "Warrior"
+    },
+    {
+        "id": "chara02",
+        "name": "Mrs. Fairy",
+        "flavor": "Bakes stuff"
+    },
+    {
+        "id": "chara03",
+        "name": "A gorilla",
+        "flavor":"It's a gorilla"
+    }
+]

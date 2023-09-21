@@ -1,6 +1,11 @@
+import { ICharacter } from "../interfaces";
+import React from "react";
+
 const CharacterSelect = () => {
     return(
-        <h2>Character Select</h2>
+        <React.Fragment>
+            <h2>Character Selection</h2>
+        </React.Fragment>
     )
 }
 

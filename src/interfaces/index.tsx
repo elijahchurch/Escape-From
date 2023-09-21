@@ -7,12 +7,15 @@ export interface IItem {
 }
 
 export interface ICharacter {
-    id: number,
+    id: string,
+    name: string,
     portait?: string,
     altPortrait?: string,
     flavor: string,
-    inventory: IItem[]
+    // inventory: IItem[]
 }
+
+
 
 export type Conditional = (inventory: IItem[]) => boolean
 
