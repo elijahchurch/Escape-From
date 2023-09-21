@@ -1,6 +1,13 @@
+import {Link} from "react-router-dom"
+
 const Start = () => {
     return(
-        <h1>Hi!!</h1>
+        <div>
+            <h1>Hi!!</h1>
+            <button>
+                <Link to="/game">Start Game</Link>
+            </button>
+        </div>
     )
 }
 
