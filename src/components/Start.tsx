@@ -2,10 +2,10 @@ import {Link} from "react-router-dom"
 
 const Start = () => {
     return(
-        <div>
+        <div className="initialcontainers">
             <h1>Hi!!</h1>
-            <button>
-                <Link to="/game">Start Game</Link>
+            <button className="startbuttons">
+                <Link className="linkstyles" to="/game">Start Game</Link>
             </button>
         </div>
     )

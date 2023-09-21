@@ -3,6 +3,55 @@ body {
   text-align: center;
 }
 
+/* Header styling */
+
+#Header {
+  border-bottom: solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 40px;
+  width: 100%;
+}
+
+#HeaderTitle{
+  float:left;
+  font-size: large;
+}
+
+.HeaderButtons{
+  float: right;
+  border: 4px;
+  border-color: black;
+  height: 100%;
+  width: 5%;
+  margin-left: 5px;
+  background-color: rgb(72, 119, 206);
+}
+
+.linkstyles {
+  text-decoration: none;
+  color: rgb(244, 239, 239);
+  font-size: large;
+}
+
+/* Start Page */
+.startbuttons {
+  background-color: rgb(72, 119, 206);
+}
+
+.initialcontainers{
+  border-style: solid;
+  width: 800px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+/* Book styling */
+
 .book {
   width: 70%;
   height: 700px;
@@ -19,6 +68,8 @@ body {
   border-style: solid;
   width: 50%;
 }
+
+
 
 #storyText{
   margin-top: 20px;
