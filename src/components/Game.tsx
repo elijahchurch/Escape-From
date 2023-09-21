@@ -2,6 +2,7 @@ import Book from "./Book";
 import {useState} from "react";
 import CharacterSelect from "./CharacterSelect";
 import ItemSelect from "./ItemSelect";
+// need to figure out how to interact with json file
 import characterdata from "./../Data/characters.json"
 import { ICharacter } from "../interfaces";
 
