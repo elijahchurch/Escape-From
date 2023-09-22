@@ -9,6 +9,7 @@ import { ICharacter } from "../interfaces";
 
 const Game = () => {
     const [gameScreen, setgameScreen] = useState<number>(1);
+    const [gameCharacter, setgameCharacter] = useState<ICharacter | null>(null)
 
 
     const characters = characterdata as ICharacter[];
@@ -19,15 +20,22 @@ const Game = () => {
     //     name : obj.name,
     //     flavor: obj.flavor
     // }))
+    const selectCharacter = (id: string) => {
+        const selected : ICharacter[] = characters.filter((character) => (character.id === id));
+        setgameCharacter(selected[0]);
+    }
 
-
-
+    let continueButton = null;
     if(gameScreen === 1){
+        if(gameCharacter){
+            continueButton = <button onClick={() => {setgameScreen(2)}}>Continue</button>
+        }
         return(
             <div className="initialcontainers">
                 <CharacterSelect 
                     characters={characters}
                     handleClick={setgameScreen}/>
+                {continueButton}
             </div>
         )
     }
