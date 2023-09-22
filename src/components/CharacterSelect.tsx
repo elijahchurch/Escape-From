@@ -8,15 +8,19 @@ interface ICharacterSelect { characters: ICharacter[], handleClick: (id: string)
 
 const CharacterSelect = (props: ICharacterSelect) => {
     return(
-        <div id="characterGrid">
-            {props.characters.map((obj) => 
-                <CharacterOption
-                    character = {obj}
-                    handleClick = {props.handleClick} 
-                    isSelected = {(obj.id === props.selectedCharacter?.id) ? true : false}
-                    key = {obj.id}/>
-            )}
-        </div>
+        <React.Fragment>
+            <h3 id="selectTitle">Select your Character</h3>
+            <hr/>
+            <div id="characterGrid">
+                {props.characters.map((obj) => 
+                    <CharacterOption
+                        character = {obj}
+                        handleClick = {props.handleClick} 
+                        isSelected = {(obj.id === props.selectedCharacter?.id) ? true : false}
+                        key = {obj.id}/>
+                )}
+            </div>
+        </React.Fragment>
     )
 }
 
