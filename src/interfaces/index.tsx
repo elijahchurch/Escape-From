@@ -8,6 +8,9 @@ export interface IItem {
 
 export interface ICharacter {
     id: string,
+    /**
+     * The name of the hero
+     */
     name: string,
     portait?: string,
     altPortrait?: string,

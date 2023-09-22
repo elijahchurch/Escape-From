@@ -9,14 +9,24 @@ import { ICharacter } from "../interfaces";
 
 const Game = () => {
     const [gameScreen, setgameScreen] = useState<number>(1)
-    //Will toggle between various screens but for now just want to render book component
-    
+
+
+    const characters = characterdata as ICharacter[];
+
+    //Set character selections
+    // const characters : ICharacter[] = characterdata.map((obj) => ({
+    //     id : obj.id,
+    //     name : obj.name,
+    //     flavor: obj.flavor
+    // }))
+
 
 
     if(gameScreen === 1){
+        console.log(characters);
         return(
             <div className="initialcontainers">
-                <CharacterSelect />
+                <CharacterSelect characters={characters}/>
                 <button onClick={() => setgameScreen(2)}>Continue</button>
             </div>
         )
