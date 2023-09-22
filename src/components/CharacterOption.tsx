@@ -3,7 +3,7 @@ import gorilla from "./../Assets/img/Gorilla-test.jpg";
 import chef from "./../Assets/img/Chef-test.jpg";
 import barb from "./../Assets/img/Barb-test.jpg"
 
-interface ICharacterOption { character: ICharacter}
+interface ICharacterOption { character: ICharacter, continue: (boolean : boolean) => void}
 
 
 
@@ -23,7 +23,11 @@ const CharacterOption = (props: ICharacterOption) => {
 
     return(
         <div>
-            <img src={imgLink} alt={altText} className="characterSelect"/>
+            <img 
+                src={imgLink} 
+                alt={altText} 
+                className="characterSelect"
+                onClick = {() => {props.continue(true)}}/>
             <p>{props.character.name}</p>
         </div>
     )

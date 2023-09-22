@@ -12,14 +12,15 @@ const CharacterSelect = (props: ICharacterSelect) => {
 
     let continueButton = null 
     if(characterSelected){
-        <button onClick={() => {props.handleClick(2)}}>Continue</button>
+        continueButton = <button onClick={() => {props.handleClick(2)}}>Continue</button>
     }
 
     return(
         <React.Fragment>
             {props.characters.map((obj) => 
                 <CharacterOption
-                    character = {obj} 
+                    character = {obj}
+                    continue = {setcharacterSelected} 
                     key = {obj.id}/>
             )}
             {continueButton}
