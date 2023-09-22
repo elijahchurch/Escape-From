@@ -7,7 +7,7 @@ interface ICharacterOption { character: ICharacter, handleClick: (id : string) =
 
 const CharacterOption = (props: ICharacterOption) => {
     return(
-        <div className = {props.isSelected ? "selected charactergrid" : "charactergrid"}>
+        <div className = {props.isSelected ? "selected gridCharacter" : "gridCharacter"}>
             <img 
                 src = {props.character.portrait} 
                 alt = {props.character.name} 
