@@ -94,6 +94,7 @@ body {
   flex-direction: row;
   border-style: solid;
   width: 50%;
+  min-width: 500px;
 }
 
 
