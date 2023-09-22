@@ -2,7 +2,6 @@ import Book from "./Book";
 import {useState} from "react";
 import CharacterSelect from "./CharacterSelect";
 import ItemSelect from "./ItemSelect";
-// need to figure out how to interact with json file
 import characterdata from "./../Data/characters.json"
 import { ICharacter } from "../interfaces";
 
@@ -23,6 +22,7 @@ const Game = () => {
     const selectCharacter = (id: string) => {
         const selected : ICharacter[] = characters.filter((character) => (character.id === id));
         setgameCharacter(selected[0]);
+        console.log(gameCharacter);
     }
 
     let continueButton = null;
@@ -34,7 +34,7 @@ const Game = () => {
             <div className="initialcontainers">
                 <CharacterSelect 
                     characters={characters}
-                    handleClick={setgameScreen}/>
+                    handleClick={selectCharacter}/>
                 {continueButton}
             </div>
         )
