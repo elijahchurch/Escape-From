@@ -1,5 +1,6 @@
 export interface IItem {
-    id: number, 
+    id: number,
+    name: string, 
     img?: string,
     uses: number,
     flavor: string,
@@ -15,7 +16,7 @@ export interface ICharacter {
     portrait?: string,
     altPortrait?: string,
     flavor: string,
-    // inventory: IItem[]
+    startingItems: IItem[]
 }
 
 

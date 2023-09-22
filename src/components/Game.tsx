@@ -41,6 +41,7 @@ const Game = () => {
         )
     }
     else if(gameScreen === 2) {
+        console.log(gameCharacter?.startingItems)
         return(
             <div className="initialcontainers">
                 <ItemSelect/>

@@ -3,18 +3,59 @@
         "id": "chara01",
         "name": "Barb the Barbarian",
         "portrait": "img/Barb-test.jpg",
-        "flavor": "A brave Warrior from the north who was captured while on a raid"
+        "flavor": "A brave Warrior from the north who was captured while on a raid",
+        "startingItems": [
+            {
+                "id": 21,
+                "name": "Great Sword",
+                "uses": 1,
+                "flavor": "A powerful hefty sword",
+                "rarity": "Character"
+            },
+            {
+                "id": 22,
+                "name": "Shield",
+                "uses": 1,
+                "flavor": "Trusty shield",
+                "rarity": "Character"
+            }
+        ]
     },
     {
         "id": "chara02",
         "name": "Magic Chef",
         "portrait": "img/Chef-test.jpg",
-        "flavor": "A chef from the magic academy who 'bakes' pies with his magic wand!"
+        "flavor": "A chef from the magic academy who 'bakes' pies with his magic wand!",
+        "startingItems" : [
+            {
+                "id": 23,
+                "name": "Magic Wand",
+                "uses": 1,
+                "flavor": "A magic wand that can only conjure pies",
+                "rarity": "Character"
+            },
+            {
+                "id": 24,
+                "name": "Magic Spatula",
+                "uses": 1,
+                "flavor": "A magic spatula for fighting sentient pastries",
+                "rarity": "Character"
+            }
+        ]
     },
     {
         "id": "chara03",
         "name": "A gorilla",
         "portrait": "img/Gorilla-test.jpg",
-        "flavor":"A gorilla. Just that."
+        "flavor":"A gorilla. Just that.",
+        "startingItems": [
+            {
+                "id": 25,
+                "name": "Bananas",
+                "uses": 10,
+                "flavor": "A whole group of yummie bananas",
+                "rarity": "Character"
+            }
+        ]
     }
 ]
