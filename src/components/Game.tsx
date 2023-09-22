@@ -8,7 +8,7 @@ import { ICharacter } from "../interfaces";
 
 
 const Game = () => {
-    const [gameScreen, setgameScreen] = useState<number>(1)
+    const [gameScreen, setgameScreen] = useState<number>(1);
 
 
     const characters = characterdata as ICharacter[];
@@ -23,11 +23,11 @@ const Game = () => {
 
 
     if(gameScreen === 1){
-        console.log(characters);
         return(
             <div className="initialcontainers">
-                <CharacterSelect characters={characters}/>
-                <button onClick={() => setgameScreen(2)}>Continue</button>
+                <CharacterSelect 
+                    characters={characters}
+                    handleClick={setgameScreen}/>
             </div>
         )
     }

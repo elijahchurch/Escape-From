@@ -1,4 +1,3 @@
-import React from "react";
 import { ICharacter } from "../interfaces";
 import gorilla from "./../Assets/img/Gorilla-test.jpg";
 import chef from "./../Assets/img/Chef-test.jpg";
