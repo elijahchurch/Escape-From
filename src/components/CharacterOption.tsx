@@ -1,14 +1,13 @@
 import { ICharacter } from "../interfaces";
 
 
-interface ICharacterOption { character: ICharacter, handleClick: (id : string) => void}
+interface ICharacterOption { character: ICharacter, handleClick: (id : string) => void, isSelected: boolean}
 
 
 
 const CharacterOption = (props: ICharacterOption) => {
-
     return(
-        <div>
+        <div className = {props.isSelected ? "selected charactergrid" : "charactergrid"}>
             <img 
                 src = {props.character.portrait} 
                 alt = {props.character.name} 

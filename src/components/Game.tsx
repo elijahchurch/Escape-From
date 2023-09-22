@@ -34,7 +34,8 @@ const Game = () => {
             <div className="initialcontainers">
                 <CharacterSelect 
                     characters={characters}
-                    handleClick={selectCharacter}/>
+                    handleClick={selectCharacter}
+                    selectedCharacter={gameCharacter}/>
                 {continueButton}
             </div>
         )

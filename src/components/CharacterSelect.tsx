@@ -3,7 +3,8 @@ import React, {useState} from "react";
 import CharacterOption from "./CharacterOption";
 
 
-interface ICharacterSelect { characters: ICharacter[], handleClick: (id: string) => void}
+interface ICharacterSelect { characters: ICharacter[], handleClick: (id: string) => void, selectedCharacter: ICharacter | null}
+
 
 const CharacterSelect = (props: ICharacterSelect) => {
     return(
@@ -12,6 +13,7 @@ const CharacterSelect = (props: ICharacterSelect) => {
                 <CharacterOption
                     character = {obj}
                     handleClick = {props.handleClick} 
+                    isSelected = {(obj.id === props.selectedCharacter?.id) ? true : false}
                     key = {obj.id}/>
             )}
         </React.Fragment>
