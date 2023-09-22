@@ -12,7 +12,7 @@ export interface ICharacter {
      * The name of the hero
      */
     name: string,
-    portait?: string,
+    portrait?: string,
     altPortrait?: string,
     flavor: string,
     // inventory: IItem[]
