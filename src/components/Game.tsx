@@ -44,7 +44,8 @@ const Game = () => {
         console.log(gameCharacter?.startingItems)
         return(
             <div className="initialcontainers">
-                <ItemSelect/>
+                <ItemSelect 
+                    selectedCharacter={gameCharacter}/>
                 <button onClick={() => setgameScreen(3)}>Continue</button>
             </div>
         )
