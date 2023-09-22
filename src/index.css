@@ -121,12 +121,17 @@ body {
   margin-right: auto;
 }
 
-#characterPicture{
-  border-style: solid;
+#characterPictureDiv{
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
   width: 30%;
+}
+
+#characterPicture{
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #characterFlavor{
