@@ -1,10 +1,17 @@
 import React from "react";
+import { ICharacter } from "../interfaces";
 
-const CharacterInfo = () => {
+interface ICharacterInfo {character: ICharacter | null}
+
+const CharacterInfo = (props: ICharacterInfo) => {
+    let flavorText = "";
+    if(props.character !== null) {
+        flavorText = props.character.flavor;
+    }
     return (
         <div id="characterInfo">
             <h1 id="characterPicture">Character</h1>
-            <p id="characterFlavor">Flavor Text for a specific character. This is currently just for fun and has no gameplay functionality.</p>
+            <p id="characterFlavor">{flavorText}</p>
         </div>
 
     )

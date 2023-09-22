@@ -49,7 +49,8 @@ const Game = () => {
     }
     else {
         return(
-            <Book/>
+            <Book
+                character = {gameCharacter}/>
         )
     }
 }

@@ -1,10 +1,13 @@
 import LeftPage from "./LeftPage";
 import RightPage from "./RightPage";
+import { ICharacter } from "../interfaces";
 
-const Book = () => {
+interface IBook { character: ICharacter | null}
+const Book = (props: IBook) => {
     return (
         <div className="book">
-            <RightPage/>
+            <RightPage
+                character ={props.character}/>
             <LeftPage/>
         </div>
     )
