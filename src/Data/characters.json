@@ -2,16 +2,16 @@
     {
         "id": "chara01",
         "name": "Barb the Barbarian",
-        "flavor": "Warrior"
+        "flavor": "A brave Warrior from the north who was captured while on a raid"
     },
     {
         "id": "chara02",
         "name": "Magic Chef",
-        "flavor": "Bakes stuff"
+        "flavor": "A chef from the magic academy who 'bakes' pies with his magic wand!"
     },
     {
         "id": "chara03",
         "name": "A gorilla",
-        "flavor":"It's a gorilla"
+        "flavor":"A gorilla. Just that."
     }
 ]
