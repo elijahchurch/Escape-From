@@ -19,6 +19,10 @@ export interface ICharacter {
     startingItems: IItem[]
 }
 
+export interface ICharacterdata {
+    [key : string] : ICharacter
+}
+
 
 
 export type Conditional = (inventory: IItem[]) => boolean

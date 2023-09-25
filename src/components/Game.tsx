@@ -3,17 +3,18 @@ import {useState} from "react";
 import CharacterSelect from "./CharacterSelect";
 import ItemSelect from "./ItemSelect";
 import characterData from "./../Data/characters.json"
-import { ICharacter, IItem} from "../interfaces";
+import { ICharacter, IItem, ICharacterdata} from "../interfaces";
 import itemData from "./../Data/Items.json"
 import { rollForTwoNumbers } from "../Functions/businesslogic";
 
 
 const Game = () => {
     const [gameScreen, setgameScreen] = useState<number>(1);
+    // possibly useContext to handle gameCharacter
     const [gameCharacter, setgameCharacter] = useState<ICharacter | null>(null)
 
 
-    const characters = characterData as ICharacter[];
+    const characters = characterData as ICharacterdata;
     const itemArray = itemData as IItem[];
 
     //Set character selections
@@ -23,10 +24,8 @@ const Game = () => {
     //     flavor: obj.flavor
     // }))
     const selectCharacter = (id: string) => {
-        const selected : ICharacter[] = characters.filter((character) => (character.id === id));
-        setgameCharacter(selected[0]);
-        const roll : number[] | void = rollForTwoNumbers();
-        console.log(roll);
+        const selected = characters[id];
+        setgameCharacter(selected);
     }
 
     let continueButton = null;

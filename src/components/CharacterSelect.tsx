@@ -1,9 +1,9 @@
-import { ICharacter } from "../interfaces";
+import { ICharacter, ICharacterdata} from "../interfaces";
 import React, {useState} from "react";
 import CharacterOption from "./CharacterOption";
 
 
-interface ICharacterSelect { characters: ICharacter[], handleClick: (id: string) => void, selectedCharacter: ICharacter | null}
+interface ICharacterSelect { characters: ICharacterdata, handleClick: (id: string) => void, selectedCharacter: ICharacter | null}
 
 
 const CharacterSelect = (props: ICharacterSelect) => {
@@ -12,7 +12,8 @@ const CharacterSelect = (props: ICharacterSelect) => {
             <h3 id="selectTitle">Select your Character</h3>
             <hr/>
             <div id="characterGrid">
-                {props.characters.map((obj) => 
+                
+                {Object.values(props.characters).map((obj) => 
                     <CharacterOption
                         character = {obj}
                         handleClick = {props.handleClick} 

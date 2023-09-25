@@ -1,5 +1,5 @@
-[
-    {
+{
+    "chara01" : {
         "id": "chara01",
         "name": "Barb the Barbarian",
         "portrait": "img/Barb-test.jpg",
@@ -21,7 +21,7 @@
             }
         ]
     },
-    {
+    "chara02" : {
         "id": "chara02",
         "name": "Magic Chef",
         "portrait": "img/Chef-test.jpg",
@@ -43,7 +43,7 @@
             }
         ]
     },
-    {
+    "chara03" : {
         "id": "chara03",
         "name": "A gorilla",
         "portrait": "img/Gorilla-test.jpg",
@@ -58,4 +58,4 @@
             }
         ]
     }
-]
+}
