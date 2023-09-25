@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "test1",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    },
+    {
+        "id": 2,
+        "name": "test2",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 3,
+        "name": "test3",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 4,
+        "name": "test4",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 5,
+        "name": "test5",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 6,
+        "name": "test6",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 7,
+        "name": "test7",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 8,
+        "name": "test8",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 9,
+        "name": "test9",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 10,
+        "name": "test10",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 11,
+        "name": "test11",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 12,
+        "name": "test12",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 13,
+        "name": "test13",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 14,
+        "name": "test14",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 15,
+        "name": "test15",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }, {
+        "id": 16,
+        "name": "test16",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    },
+    {
+        "id": 17,
+        "name": "test17",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    },
+    {
+        "id": 18,
+        "name": "test18",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    },
+    {
+        "id": 19,
+        "name": "test19",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    },
+    {
+        "id": 20,
+        "name": "test20",
+        "uses": 1,
+        "flavor": "test",
+        "rarity": "Common"
+    }
+]
