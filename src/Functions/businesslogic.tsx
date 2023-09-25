@@ -1,5 +1,5 @@
 
-export const rollD20 = () => {
+export const rollD20 = () : number => {
     const roll = Math.floor(Math.random() * 20) + 1;
     return roll;
 };
