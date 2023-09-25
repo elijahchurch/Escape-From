@@ -5,6 +5,7 @@ import ItemSelect from "./ItemSelect";
 import characterData from "./../Data/characters.json"
 import { ICharacter, IItem} from "../interfaces";
 import itemData from "./../Data/Items.json"
+import { rollForTwoNumbers } from "../Functions/businesslogic";
 
 
 const Game = () => {
@@ -24,7 +25,8 @@ const Game = () => {
     const selectCharacter = (id: string) => {
         const selected : ICharacter[] = characters.filter((character) => (character.id === id));
         setgameCharacter(selected[0]);
-        console.log(itemArray);
+        const roll : number[] | void = rollForTwoNumbers();
+        console.log(roll);
     }
 
     let continueButton = null;
