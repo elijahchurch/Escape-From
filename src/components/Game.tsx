@@ -11,7 +11,12 @@ import { rollForTwoNumbers } from "../Functions/businesslogic";
 const Game = () => {
     const [gameScreen, setgameScreen] = useState<number>(1);
     // possibly useContext to handle gameCharacter
-    const [gameCharacter, setgameCharacter] = useState<ICharacter | null>(null)
+    const [gameCharacter, setgameCharacter] = useState<ICharacter>({
+        id: "dummy01",
+        name: " ",
+        flavor: " ",
+        inventory: []
+    })
 
 
     const characters = characterData as ICharacterData;
@@ -29,7 +34,7 @@ const Game = () => {
     }
 
     const continueWithInventory = (randomItems : IItem[]) => {
-        {gameCharacter ? setgameCharacter({...gameCharacter, "inventory" : gameCharacter.inventory.concat(randomItems)}) : null };
+        setgameCharacter({...gameCharacter, "inventory" : gameCharacter.inventory.concat(randomItems)});
         setgameScreen(3);
     }
 
@@ -44,14 +49,14 @@ const Game = () => {
             </div>
         )
     }
-    else if(gameScreen === 3 && gameCharacter){
+    else if(gameScreen === 3){
         return(
             <Book
                 character = {gameCharacter}/>
         )
     }
     else {
-        if(gameCharacter){
+        if(gameCharacter.id !== "dummy01"){
             continueButton = <button onClick={() => {setgameScreen(2)}}>Continue</button>
         }
         return(

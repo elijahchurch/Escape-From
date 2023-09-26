@@ -12,7 +12,7 @@ const CharacterInfo = (props: ICharacterInfo) => {
                     src={props.character.portrait}
                     alt= {props.character.name}/>
             </div>
-            <p id="characterFlavor">{props.character?.flavor}</p>
+            <p id="characterFlavor">{props.character.flavor}</p>
         </div>
 
     )
