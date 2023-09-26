@@ -2,15 +2,14 @@ import Book from "./Book";
 import {useState} from "react";
 import CharacterSelect from "./CharacterSelect";
 import ItemSelect from "./ItemSelect";
-import characterData from "./../Data/characters.json"
+import characterData from "./../Data/characters.json";
 import { ICharacter, IItem, ICharacterData, IItemData} from "../interfaces";
-import itemData from "./../Data/Items.json"
-import { rollForTwoNumbers } from "../Functions/businesslogic";
+import itemData from "./../Data/Items.json";
+import { charaContext } from "../context/charaContext";
 
 
 const Game = () => {
     const [gameScreen, setgameScreen] = useState<number>(1);
-    // possibly useContext to handle gameCharacter
     const [gameCharacter, setgameCharacter] = useState<ICharacter>({
         id: "dummy01",
         name: " ",
@@ -22,12 +21,6 @@ const Game = () => {
     const characters = characterData as ICharacterData;
     const items = itemData as IItemData;
 
-    //Set character selections
-    // const characters : ICharacter[] = characterdata.map((obj) => ({
-    //     id : obj.id,
-    //     name : obj.name,
-    //     flavor: obj.flavor
-    // }))
     const selectCharacter = (id: string) => {
         const selected = characters[id];
         setgameCharacter(selected);
@@ -39,36 +32,36 @@ const Game = () => {
     }
 
     let continueButton = null;
+    let gameDisplay = null;
     if(gameScreen === 2) {
-        return(
+        gameDisplay =
             <div className="initialcontainers">
                 <ItemSelect 
-                    selectedCharacter={gameCharacter}
                     commonItems = {items}
                     handleClick={continueWithInventory}/>
             </div>
-        )
     }
     else if(gameScreen === 3){
-        return(
-            <Book
-                character = {gameCharacter}/>
-        )
+        gameDisplay = 
+            <Book/>
     }
     else {
         if(gameCharacter.id !== "dummy01"){
             continueButton = <button onClick={() => {setgameScreen(2)}}>Continue</button>
         }
-        return(
+        gameDisplay = 
             <div className="initialcontainers">
                 <CharacterSelect 
                     characters={characters}
-                    handleClick={selectCharacter}
-                    selectedCharacter={gameCharacter}/>
+                    handleClick={selectCharacter}/>
                 {continueButton}
             </div>
-        )
     }
+    return (
+        <charaContext.Provider value = {{gameCharacter, setgameCharacter}}>
+            {gameDisplay}
+        </charaContext.Provider>
+    )
 }
 
 export default Game;

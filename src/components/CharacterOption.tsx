@@ -1,6 +1,7 @@
 import { ICharacter } from "../interfaces";
 
 
+
 interface ICharacterOption { character: ICharacter, handleClick: (id : string) => void, isSelected: boolean}
 
 

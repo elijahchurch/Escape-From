@@ -1,12 +1,15 @@
 import { ICharacter, ICharacterData} from "../interfaces";
-import React, {useState} from "react";
+import React, {useContext} from "react";
 import CharacterOption from "./CharacterOption";
+import { charaContext } from "../context/charaContext";
 
 
-interface ICharacterSelect { characters: ICharacterData, handleClick: (id: string) => void, selectedCharacter: ICharacter | null}
+interface ICharacterSelect { characters: ICharacterData, handleClick: (id: string) => void}
 
 
 const CharacterSelect = (props: ICharacterSelect) => {
+    
+    const gameCharacter = useContext(charaContext);
     return(
         <React.Fragment>
             <h3 id="selectTitle">Select your Character</h3>
@@ -17,7 +20,7 @@ const CharacterSelect = (props: ICharacterSelect) => {
                     <CharacterOption
                         character = {obj}
                         handleClick = {props.handleClick} 
-                        isSelected = {(obj.id === props.selectedCharacter?.id) ? true : false}
+                        isSelected = {(obj.id === gameCharacter?.gameCharacter.id) ? true : false}
                         key = {obj.id}/>
                 )}
             </div>
@@ -26,3 +29,11 @@ const CharacterSelect = (props: ICharacterSelect) => {
 }
 
 export default CharacterSelect;
+
+
+// Way to destructure context:
+// let selectedCharacter : ICharacter;
+// const gameCharacter = useContext(charaContext);
+// if(gameCharacter) {
+//     selectedCharacter = gameCharacter.gameCharacter;
+// }

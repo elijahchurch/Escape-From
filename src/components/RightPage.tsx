@@ -1,17 +1,14 @@
 import PicturePage from "./PicturePage";
 import CharacterInfo from "./CharacterInfo";
 import InventoryList from "./InventoryList";
-import { ICharacter } from "../interfaces";
 
-interface IRightPage {character: ICharacter}
 
-const RightPage = (props: IRightPage) => {
+const RightPage = () => {
     return(
         <div className="page">
             <div className="column fill">
                 <PicturePage/>
-                <CharacterInfo
-                    character = {props.character}/>
+                <CharacterInfo/>
                 <InventoryList/>
             </div>
         </div>

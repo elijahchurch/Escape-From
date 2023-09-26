@@ -1,8 +1,9 @@
 import { ICharacter, IItem, IItemData} from "../interfaces";
-import React, {useState} from "react";
+import React, {useState, useContext} from "react";
 import { rollForTwoNumbers } from "../Functions/businesslogic";
+import { charaContext } from "../context/charaContext";
 
-interface IItemSelect {selectedCharacter: ICharacter, commonItems: IItemData, handleClick: (randomItems: IItem[]) => void}
+interface IItemSelect {commonItems: IItemData, handleClick: (randomItems: IItem[]) => void}
 const ItemSelect = (props: IItemSelect) => {
     const [randomItems, setrandomItems] = useState<IItem[]>([])
 
@@ -14,6 +15,8 @@ const ItemSelect = (props: IItemSelect) => {
         })
         setrandomItems(chosenItems);
     }
+
+    const gameCharacter = useContext(charaContext)
 
     let rollDisplay = null;
     if( randomItems.length < 2) {
@@ -35,9 +38,9 @@ const ItemSelect = (props: IItemSelect) => {
 
     return(
         <React.Fragment>
-        <h3> These are the starting items for {props.selectedCharacter.name}.</h3>
+        <h3> These are the starting items for {gameCharacter?.gameCharacter.name}.</h3>
         <hr/>
-        {props.selectedCharacter.inventory.map((element) => 
+        {gameCharacter?.gameCharacter.inventory.map((element) => 
             <h4 key={element.id}>{element.name}</h4>
         )}
         <hr/>
