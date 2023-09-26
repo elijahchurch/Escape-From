@@ -6,14 +6,14 @@
         "flavor": "A brave Warrior from the north who was captured while on a raid",
         "startingItems": [
             {
-                "id": 21,
+                "id": "CharaItem01",
                 "name": "Great Sword",
                 "uses": 1,
                 "flavor": "A powerful hefty sword",
                 "rarity": "Character"
             },
             {
-                "id": 22,
+                "id": "CharaItem02",
                 "name": "Shield",
                 "uses": 1,
                 "flavor": "Trusty shield",
@@ -28,14 +28,14 @@
         "flavor": "A chef from the magic academy who 'bakes' pies with his magic wand!",
         "startingItems" : [
             {
-                "id": 23,
+                "id": "CharaItem03",
                 "name": "Magic Wand",
                 "uses": 1,
                 "flavor": "A magic wand that can only conjure pies",
                 "rarity": "Character"
             },
             {
-                "id": 24,
+                "id": "CharaItem04",
                 "name": "Magic Spatula",
                 "uses": 1,
                 "flavor": "A magic spatula for fighting sentient pastries",
@@ -50,7 +50,7 @@
         "flavor":"A gorilla. Just that.",
         "startingItems": [
             {
-                "id": 25,
+                "id": "CharaItem05",
                 "name": "Bananas",
                 "uses": 10,
                 "flavor": "A whole group of yummie bananas",

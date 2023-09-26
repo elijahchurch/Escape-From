@@ -3,7 +3,7 @@ import {useState} from "react";
 import CharacterSelect from "./CharacterSelect";
 import ItemSelect from "./ItemSelect";
 import characterData from "./../Data/characters.json"
-import { ICharacter, IItem, ICharacterdata} from "../interfaces";
+import { ICharacter, IItem, ICharacterData, IItemData} from "../interfaces";
 import itemData from "./../Data/Items.json"
 import { rollForTwoNumbers } from "../Functions/businesslogic";
 
@@ -14,8 +14,8 @@ const Game = () => {
     const [gameCharacter, setgameCharacter] = useState<ICharacter | null>(null)
 
 
-    const characters = characterData as ICharacterdata;
-    const itemArray = itemData as IItem[];
+    const characters = characterData as ICharacterData;
+    const itemArray = itemData as IItemData;
 
     //Set character selections
     // const characters : ICharacter[] = characterdata.map((obj) => ({

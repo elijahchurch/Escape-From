@@ -1,10 +1,14 @@
 export interface IItem {
-    id: number,
+    id: string,
     name: string, 
     img?: string,
     uses: number,
     flavor: string,
     rarity: string
+}
+
+export interface IItemData {
+    [key : string] : IItem
 }
 
 export interface ICharacter {
@@ -19,7 +23,7 @@ export interface ICharacter {
     startingItems: IItem[]
 }
 
-export interface ICharacterdata {
+export interface ICharacterData {
     [key : string] : ICharacter
 }
 

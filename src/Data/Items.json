@@ -1,128 +1,142 @@
-[
-    {
-        "id": 1,
+{
+    "common01": {
+        "id": "common01",
         "name": "test1",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    {
-        "id": 2,
+    "common02": {
+        "id": "common02",
         "name": "test2",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 3,
+    },
+    "common03": {
+        "id": "common03",
         "name": "test3",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 4,
+    },
+    "common04": {
+        "id": "common04",
         "name": "test4",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 5,
+    },
+    "common05": {
+        "id": "common05",
         "name": "test5",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 6,
+    },
+    "common06": {
+        "id": "common06"
         "name": "test6",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 7,
+    },
+    "common07": {
+        "id": "common07"
         "name": "test7",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 8,
+    },
+    "common08": {
+        "id": "common08"
         "name": "test8",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 9,
+    },
+    "common09": {
+        "id": "common09",
         "name": "test9",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 10,
+    },
+    "common10": {
+        "id": "common10",
         "name": "test10",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 11,
+    },
+    "common11": {
+        "id": "common11",
         "name": "test11",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 12,
+    },
+    "common12": {
+        "id": "common12",
         "name": "test12",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 13,
+    },
+    "common13": {
+        "id": "common13",
         "name": "test13",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 14,
+    },
+    "common14": {
+        "id": "common14",
         "name": "test14",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 15,
+    },
+    "common15": {
+        "id": "common15",
         "name": "test15",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
-    }, {
-        "id": 16,
+    },
+    "common16": {
+        "id": "common16",
         "name": "test16",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    {
-        "id": 17,
+    "common17": {
+        "id": "common17",
         "name": "test17",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    {
-        "id": 18,
+    "common18": {
+        "id": "common18",
         "name": "test18",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    {
-        "id": 19,
+    "common19": {
+        "id": "common19",
         "name": "test19",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    {
-        "id": 20,
+    "common20": {
+        "id": "common20",
         "name": "test20",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     }
-]
+}
