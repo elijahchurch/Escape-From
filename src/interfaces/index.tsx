@@ -20,7 +20,7 @@ export interface ICharacter {
     portrait?: string,
     altPortrait?: string,
     flavor: string,
-    startingItems: IItem[]
+    inventory: IItem[]
 }
 
 export interface ICharacterData {
