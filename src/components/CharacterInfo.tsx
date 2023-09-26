@@ -13,10 +13,6 @@ const CharacterInfo = (props: ICharacterInfo) => {
                     alt= {props.character.name}/>
             </div>
             <p id="characterFlavor">{props.character?.flavor}</p>
-            {/* check if inventory updated */}
-            {props.character.inventory.map((item) =>
-               <p key={item.id}>{item.name}</p>
-                )}
         </div>
 
     )
