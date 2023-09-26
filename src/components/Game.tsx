@@ -28,14 +28,19 @@ const Game = () => {
         setgameCharacter(selected);
     }
 
+    const continueWithInventory = (randomItems : IItem[]) => {
+        {gameCharacter ? setgameCharacter({...gameCharacter, "inventory" : gameCharacter.inventory.concat(randomItems)}) : null };
+        setgameScreen(3);
+    }
+
     let continueButton = null;
     if(gameScreen === 2) {
         return(
             <div className="initialcontainers">
                 <ItemSelect 
                     selectedCharacter={gameCharacter}
-                    commonItems = {items}/>
-                <button onClick={() => setgameScreen(3)}>Continue</button>
+                    commonItems = {items}
+                    handleClick={continueWithInventory}/>
             </div>
         )
     }
