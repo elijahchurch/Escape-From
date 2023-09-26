@@ -29,22 +29,26 @@ const ItemSelect = (props: IItemSelect) => {
     } else {
         rollDisplay = 
             <React.Fragment>
-                {randomItems.map((element) => 
-                    <h4 key={element.id}>{element.name}</h4>
-                )}
+                <h3>You also recieved: </h3>
                 <hr/>
+                <div className="inventorySelectDiv">
+                    {randomItems.map((element) => 
+                        <ItemCard Item={element} key={element.id} rarity="commonRarity"/>
+                    )}
+                </div>
                 <button onClick={() => props.handleClick(randomItems)}>Continue</button>
             </React.Fragment>
     }
 
     return(
         <React.Fragment>
-        <h3> These are the starting items for {gameCharacter?.gameCharacter.name}.</h3>
+        <h3>{gameCharacter?.gameCharacter.name}'s starting Items</h3>
         <hr/>
-        {gameCharacter?.gameCharacter.inventory.map((element) => 
-            <ItemCard Item={element} />
-        )}
-        <hr/>
+        <div className="inventorySelectDiv">
+            {gameCharacter?.gameCharacter.inventory.map((element) => 
+                <ItemCard Item={element} key={element.id} rarity="charaRarity"/>
+            )}
+        </div>
         {rollDisplay}
         </React.Fragment>
     )
