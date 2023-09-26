@@ -1,20 +1,16 @@
-import {useContext}from "react";
 import { ICharacter } from "../interfaces";
-import { charaContext } from "../context/charaContext";
 
-const CharacterInfo = () => {
-    
-    const gameCharacter = useContext(charaContext);
-
+interface ICharacterInfo { character: ICharacter | undefined}
+const CharacterInfo = (props: ICharacterInfo) => {
     return (
         <div id="characterInfo">
             <div id="characterPictureDiv">
                 <img
                     id="characterPicture"
-                    src={gameCharacter?.gameCharacter.portrait}
-                    alt= {gameCharacter?.gameCharacter.name}/>
+                    src={props.character?.portrait}
+                    alt= {props.character?.name}/>
             </div>
-            <p id="characterFlavor">{gameCharacter?.gameCharacter.flavor}</p>
+            <p id="characterFlavor">{props.character?.flavor}</p>
         </div>
     )
 }

@@ -93,12 +93,12 @@ body {
   color: white;
 }
 
-.charaRarity{
+.Character{
   background-color: rgb(187, 42, 187);
   border-color:rgb(91, 20, 157);
 }
 
-.commonRarity{
+.Common{
   background-color: rgb(30, 116, 228);
   border-color: rgb(9, 9, 159);
 }
