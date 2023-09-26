@@ -4,7 +4,7 @@
         "name": "Barb the Barbarian",
         "portrait": "img/Barb-test.jpg",
         "flavor": "A brave Warrior from the north who was captured while on a raid",
-        "startingItems": [
+        "inventory": [
             {
                 "id": "CharaItem01",
                 "name": "Great Sword",
@@ -26,7 +26,7 @@
         "name": "Magic Chef",
         "portrait": "img/Chef-test.jpg",
         "flavor": "A chef from the magic academy who 'bakes' pies with his magic wand!",
-        "startingItems" : [
+        "inventory" : [
             {
                 "id": "CharaItem03",
                 "name": "Magic Wand",
@@ -48,7 +48,7 @@
         "name": "A gorilla",
         "portrait": "img/Gorilla-test.jpg",
         "flavor":"A gorilla. Just that.",
-        "startingItems": [
+        "inventory": [
             {
                 "id": "CharaItem05",
                 "name": "Bananas",
