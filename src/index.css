@@ -77,6 +77,13 @@ body {
   border-color: blueviolet;
   border-radius: 60px;
 }
+
+/* Item Select and Item Cards */
+
+.itemImg {
+  width: 150px;
+  height: 150px;
+}
 /* Book styling */
 
 .book {

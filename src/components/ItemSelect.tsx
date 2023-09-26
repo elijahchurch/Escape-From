@@ -2,6 +2,7 @@ import { ICharacter, IItem, IItemData} from "../interfaces";
 import React, {useState, useContext} from "react";
 import { rollForTwoNumbers } from "../Functions/businesslogic";
 import { charaContext } from "../context/charaContext";
+import ItemCard from "./ItemCard";
 
 interface IItemSelect {commonItems: IItemData, handleClick: (randomItems: IItem[]) => void}
 const ItemSelect = (props: IItemSelect) => {
@@ -41,7 +42,7 @@ const ItemSelect = (props: IItemSelect) => {
         <h3> These are the starting items for {gameCharacter?.gameCharacter.name}.</h3>
         <hr/>
         {gameCharacter?.gameCharacter.inventory.map((element) => 
-            <h4 key={element.id}>{element.name}</h4>
+            <ItemCard Item={element} />
         )}
         <hr/>
         {rollDisplay}
