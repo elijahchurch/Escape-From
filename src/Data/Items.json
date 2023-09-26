@@ -1,62 +1,62 @@
 {
-    "common01": {
-        "id": "common01",
+    "common1": {
+        "id": "common1",
         "name": "test1",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    "common02": {
-        "id": "common02",
+    "common2": {
+        "id": "common2",
         "name": "test2",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    "common03": {
-        "id": "common03",
+    "common3": {
+        "id": "common3",
         "name": "test3",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    "common04": {
-        "id": "common04",
+    "common4": {
+        "id": "common4",
         "name": "test4",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    "common05": {
-        "id": "common05",
+    "common5": {
+        "id": "common5",
         "name": "test5",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    "common06": {
-        "id": "common06",
+    "common6": {
+        "id": "common6",
         "name": "test6",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    "common07": {
-        "id": "common07",
+    "common7": {
+        "id": "common7",
         "name": "test7",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    "common08": {
-        "id": "common08",
+    "common8": {
+        "id": "common8",
         "name": "test8",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
-    "common09": {
-        "id": "common09",
+    "common9": {
+        "id": "common9",
         "name": "test9",
         "uses": 1,
         "flavor": "test",

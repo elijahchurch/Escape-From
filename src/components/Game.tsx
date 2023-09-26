@@ -15,7 +15,7 @@ const Game = () => {
 
 
     const characters = characterData as ICharacterData;
-    const itemArray = itemData as IItemData;
+    const items = itemData as IItemData;
 
     //Set character selections
     // const characters : ICharacter[] = characterdata.map((obj) => ({
@@ -33,7 +33,8 @@ const Game = () => {
         return(
             <div className="initialcontainers">
                 <ItemSelect 
-                    selectedCharacter={gameCharacter}/>
+                    selectedCharacter={gameCharacter}
+                    commonItems = {items}/>
                 <button onClick={() => setgameScreen(3)}>Continue</button>
             </div>
         )
