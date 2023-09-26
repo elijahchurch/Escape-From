@@ -3,7 +3,7 @@ import CharacterInfo from "./CharacterInfo";
 import InventoryList from "./InventoryList";
 import { ICharacter } from "../interfaces";
 
-interface IRightPage {character: ICharacter | null}
+interface IRightPage {character: ICharacter}
 
 const RightPage = (props: IRightPage) => {
     return(

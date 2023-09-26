@@ -1,9 +1,9 @@
-import { ICharacter, ICharacterdata} from "../interfaces";
+import { ICharacter, ICharacterData} from "../interfaces";
 import React, {useState} from "react";
 import CharacterOption from "./CharacterOption";
 
 
-interface ICharacterSelect { characters: ICharacterdata, handleClick: (id: string) => void, selectedCharacter: ICharacter | null}
+interface ICharacterSelect { characters: ICharacterData, handleClick: (id: string) => void, selectedCharacter: ICharacter | null}
 
 
 const CharacterSelect = (props: ICharacterSelect) => {

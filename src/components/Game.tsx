@@ -29,22 +29,7 @@ const Game = () => {
     }
 
     let continueButton = null;
-    if(gameScreen === 1){
-        if(gameCharacter){
-            continueButton = <button onClick={() => {setgameScreen(2)}}>Continue</button>
-        }
-        return(
-
-            <div className="initialcontainers">
-                <CharacterSelect 
-                    characters={characters}
-                    handleClick={selectCharacter}
-                    selectedCharacter={gameCharacter}/>
-                {continueButton}
-            </div>
-        )
-    }
-    else if(gameScreen === 2) {
+    if(gameScreen === 2) {
         return(
             <div className="initialcontainers">
                 <ItemSelect 
@@ -53,10 +38,24 @@ const Game = () => {
             </div>
         )
     }
-    else {
+    else if(gameScreen === 3 && gameCharacter){
         return(
             <Book
                 character = {gameCharacter}/>
+        )
+    }
+    else {
+        if(gameCharacter){
+            continueButton = <button onClick={() => {setgameScreen(2)}}>Continue</button>
+        }
+        return(
+            <div className="initialcontainers">
+                <CharacterSelect 
+                    characters={characters}
+                    handleClick={selectCharacter}
+                    selectedCharacter={gameCharacter}/>
+                {continueButton}
+            </div>
         )
     }
 }

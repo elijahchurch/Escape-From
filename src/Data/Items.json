@@ -35,21 +35,21 @@
         "rarity": "Common"
     },
     "common06": {
-        "id": "common06"
+        "id": "common06",
         "name": "test6",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
     "common07": {
-        "id": "common07"
+        "id": "common07",
         "name": "test7",
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
     },
     "common08": {
-        "id": "common08"
+        "id": "common08",
         "name": "test8",
         "uses": 1,
         "flavor": "test",

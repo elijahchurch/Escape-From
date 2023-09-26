@@ -1,7 +1,7 @@
 import React from "react";
 import { ICharacter } from "../interfaces";
 
-interface ICharacterInfo {character: ICharacter | null}
+interface ICharacterInfo {character: ICharacter}
 
 const CharacterInfo = (props: ICharacterInfo) => {
     return (
@@ -9,10 +9,10 @@ const CharacterInfo = (props: ICharacterInfo) => {
             <div id="characterPictureDiv">
                 <img
                     id="characterPicture"
-                    src={props.character?.portrait}
-                    alt= {props.character?.name ?? ""}/>
+                    src={props.character.portrait}
+                    alt= {props.character.name}/>
             </div>
-            <p id="characterFlavor">{props.character?.flavor ?? ""}</p>
+            <p id="characterFlavor">{props.character?.flavor}</p>
         </div>
 
     )
