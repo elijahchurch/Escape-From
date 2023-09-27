@@ -7,7 +7,7 @@ const LeftPage = (props: ILeftPage) => {
 
     return(
         <div className="page">
-            <div className="column">
+            <div className="column fill">
                 <div id="storyText">
                     <p>{props.page.eventText}</p>
                 </div>

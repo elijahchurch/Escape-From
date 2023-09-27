@@ -7,7 +7,7 @@ interface IOptionList { options: IOption[], findPage: (id:string) => void}
 const OptionList = (props : IOptionList) => {
 
     return (
-        <div className="column">
+        <div>
             {props.options.map((element, index) => (
                 <Option 
                 option ={element}
