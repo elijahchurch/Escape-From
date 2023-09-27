@@ -1,11 +1,14 @@
-import React from "react";
 import {IOption} from "../interfaces"
 
-interface ISingleOption {option: IOption}
+interface ISingleOption {option: IOption, findPage: (id:string) => void}
+
 
 const Option = (props: ISingleOption) => {
+    
     return (
-        <button className="storyOptions">{props.option.label}</button>
+        <button type="submit" 
+                className="storyOptions"
+                onClick = {() => props.findPage(props.option.resultId)}> {props.option.label}</button>
     )
 } 
 

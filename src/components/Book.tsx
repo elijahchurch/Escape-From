@@ -10,10 +10,14 @@ const pages = pageData as IPageData;
 const Book = () => {
     const [page, setPage] = useState(pages["event01"])
 
+    const findPage = (resultId: string) : void => {
+        setPage(pages[resultId]);
+    }
+
     return (
         <div className="book">
             <RightPage/>
-            <LeftPage page={page}/>
+            <LeftPage page={page} findPage={findPage}/>
         </div>
     )
 }
