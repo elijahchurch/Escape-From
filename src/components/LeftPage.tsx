@@ -1,11 +1,15 @@
 import OptionList from "./OptionList";
+import { IPage } from "../interfaces";
 
-const LeftPage = () => {
+interface ILeftPage {page: IPage}
+
+const LeftPage = (props: ILeftPage) => {
+
     return(
         <div className="page">
             <div className="column">
                 <div id="storyText">
-                    <p>This is going to be where the story goes! Lot's of text should go here but not too much. Just writing a lot right now too see how it fills out the page. Need to lock in elements at some point. I probably can afford to give it more space</p>
+                    <p>{props.page.eventText}</p>
                 </div>
                 <OptionList/>
             </div>

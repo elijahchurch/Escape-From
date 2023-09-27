@@ -13,7 +13,7 @@ const options : string[] = [
     return (
         <div className="column">
             {options.map((element, index) => (
-                <Option label={element} conditional={true} resultId={2} key={index}/>
+                <Option label={element} conditional={true} resultId={"test"} key={index}/>
             ))}
         </div>
     )    
