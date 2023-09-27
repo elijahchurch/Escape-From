@@ -13,8 +13,8 @@ const RightPage = () => {
         <div className="page">
             <div className="column fill">
                 <PicturePage/>
-                <CharacterInfo character={gameCharacter?.gameCharacter}/>
-                <InventoryList inventory={gameCharacter?.gameCharacter.inventory}/>
+                <CharacterInfo character={gameCharacter}/>
+                <InventoryList inventory={gameCharacter.inventory}/>
             </div>
         </div>
     )

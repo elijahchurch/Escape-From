@@ -58,7 +58,7 @@ const Game = () => {
             </div>
     }
     return (
-        <charaContext.Provider value = {{gameCharacter, setgameCharacter}}>
+        <charaContext.Provider value = {gameCharacter}>
             {gameDisplay}
         </charaContext.Provider>
     )

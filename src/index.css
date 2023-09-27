@@ -206,9 +206,19 @@ body {
 
 .grid-item{
   border-style: solid;
-  height: 60px
+  min-height: 80px;
+  min-width: 40px;
 }
 
 #inventoryHeader {
   margin-bottom: 5px;
+}
+
+.empty{
+  background-color: rgb(245, 233, 233);
+}
+
+.inventoryImg {
+  width: 20px;
+  height: 20px;
 }

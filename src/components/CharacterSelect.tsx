@@ -20,7 +20,7 @@ const CharacterSelect = (props: ICharacterSelect) => {
                     <CharacterOption
                         character = {obj}
                         handleClick = {props.handleClick} 
-                        isSelected = {(obj.id === gameCharacter?.gameCharacter.id) ? true : false}
+                        isSelected = {(obj.id === gameCharacter.id) ? true : false}
                         key = {obj.id}/>
                 )}
             </div>

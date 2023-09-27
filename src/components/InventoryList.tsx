@@ -1,31 +1,38 @@
 import React from "react";
 import { IItem } from "../interfaces";
 import ItemCard from "./ItemCard";
+import { finalizeInventory } from "../Functions/businesslogic";
 
-interface IInventoryList {inventory: IItem[] | undefined}
+interface IInventoryList {inventory: IItem[]}
 
 const InventoryList = (props: IInventoryList) => {
+    const inventoryArray = finalizeInventory(props.inventory);
+
     return(
         <React.Fragment>
             <h4 id="inventoryHeader">Inventory</h4>
             <div id="inventoryGrid">
-                {props.inventory?.map((item) =>
-                    <div className="grid-item">
-                    <ItemCard 
-                        Item={item} 
-                        rarity={item.rarity}
-                        key={item.id}/>
-                    </div>)}
-                <div className="grid-item">Item</div>
-                <div className="grid-item">Item</div>
-                <div className="grid-item">Item</div>
-                <div className="grid-item">Item</div>
-                <div className="grid-item">Item</div>
-                <div className="grid-item">Item</div>
-                <div className="grid-item">Item</div>
+                {inventoryArray.map((item : IItem, index :number) => {
+                    if(item.id === "dummy01" ) {
+                        return (<div className="grid-item empty" key={index}></div>)
+                    }
+                    else{
+                        return ( <div className="item" key={index}>
+                                    <ItemCard 
+                                        Item={item} 
+                                        rarity={item.rarity}
+                                        itemSize="inventoryImg"
+                                        />
+                                </div>)
+                        }
+                    })
+                }
+                
+                
             </div>
         </React.Fragment>
     )
 }
 
 export default InventoryList;
+
