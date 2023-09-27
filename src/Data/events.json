@@ -1,0 +1,189 @@
+{
+    "event01": {
+        "id": "event01",
+        "eventText" : "You find yourself in a dark room. I need to write quite a bit of text here to get things moving.",
+        "options": [
+            {
+                "resultId": "event02",
+                "label": "Jump like a maniac!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event03",
+                "label": "Dance your hear out",
+                "conditional" : true
+            },
+            {
+                "resultId": "event04",
+                "label": "Attac protec snuggle",
+                "conditional" : true
+            },
+            {
+                "resultId": "event05",
+                "label": "Watch gonna doooo!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event06",
+                "label": "Eat all the mushrooms",
+                "conditional" : true
+            }
+        ]
+    },
+    "event02": {
+        "id": "event02",
+        "eventText" : "Test 2. You are in event 2.",
+        "options": [
+            {
+                "resultId": "event02",
+                "label": "Jump like a maniac!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Dance your hear out",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Attac protec snuggle",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Watch gonna doooo!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Eat all the mushrooms",
+                "conditional" : true
+            }
+        ]
+    },
+    "event03": {
+        "id": "event03",
+        "eventText" : "Goooriillllaa!! Test 3. You are in event 3.",
+        "options": [
+            {
+                "resultId": "event02",
+                "label": "Jump like a maniac!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Dance your hear out",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Attac protec snuggle",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Watch gonna doooo!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Eat all the mushrooms",
+                "conditional" : true
+            }
+        ]
+    },
+    "event04": {
+        "id": "event04",
+        "eventText" : "4444444444444444444",
+        "options": [
+            {
+                "resultId": "event02",
+                "label": "Jump like a maniac!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Dance your hear out",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Attac protec snuggle",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Watch gonna doooo!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Eat all the mushrooms",
+                "conditional" : true
+            }
+        ]
+    },
+    "event05": {
+        "id": "event05",
+        "eventText" : "Five Heroes tell you that you have arrived to event 5.",
+        "options": [
+            {
+                "resultId": "event02",
+                "label": "Jump like a maniac!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Dance your hear out",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Attac protec snuggle",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Watch gonna doooo!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Eat all the mushrooms",
+                "conditional" : true
+            }
+        ]
+    },
+    "event06": {
+        "id": "event06",
+        "eventText" : "You definitely shouldn't be here at Event 06!!!!",
+        "options": [
+            {
+                "resultId": "event02",
+                "label": "Jump like a maniac!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Dance your hear out",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Attac protec snuggle",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Watch gonna doooo!",
+                "conditional" : true
+            },
+            {
+                "resultId": "event02",
+                "label": "Eat all the mushrooms",
+                "conditional" : true
+            }
+        ]
+    }
+
+}

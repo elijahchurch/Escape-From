@@ -50,8 +50,8 @@ export interface IOption {
 // const option : Option = {resultId: 5, label : "Open door with key", conditional: (inventory) => inventory.find(({id}) => id === 1) !== undefined}
 
 export interface IPage {
-    id: number,
-    preludeText: string,
+    id: string,
+    preludeText?: string,
     eventText: string,
     options: IOption[]
 }
