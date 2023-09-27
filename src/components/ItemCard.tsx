@@ -6,7 +6,7 @@ const ItemCard = (props: IItemCard) => {
 
     return(
         <div className={`itemCard ${props.rarity}`}>
-            <img className={props.itemSize} src="img/Barb-test.jpg"/>
+            <img className={props.itemSize} src="img/img-test.jpg"/>
             <p className="itemText" >{props.Item.name}</p>
         </div>
     )
