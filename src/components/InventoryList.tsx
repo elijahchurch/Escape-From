@@ -10,24 +10,19 @@ const InventoryList = (props: IInventoryList) => {
             <h4 id="inventoryHeader">Inventory</h4>
             <div id="inventoryGrid">
                 {props.inventory?.map((item) =>
-                    <div className="item">
+                    <div className="grid-item">
                     <ItemCard 
                         Item={item} 
                         rarity={item.rarity}
                         key={item.id}/>
                     </div>)}
-                {/* <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div>
-                <div className="item">Item</div> */}
+                <div className="grid-item">Item</div>
+                <div className="grid-item">Item</div>
+                <div className="grid-item">Item</div>
+                <div className="grid-item">Item</div>
+                <div className="grid-item">Item</div>
+                <div className="grid-item">Item</div>
+                <div className="grid-item">Item</div>
             </div>
         </React.Fragment>
     )
