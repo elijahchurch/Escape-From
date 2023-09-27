@@ -1,19 +1,17 @@
 import Option from "./Option";
 import React from "react";
+import { IOption } from "../interfaces";
 
-const OptionList = () => {
+interface IOptionList { options: IOption[]}
 
-const options : string[] = [
-    "option1",
-    "option2",
-    "option3",
-    "option4",
-    "option5"
-]
+const OptionList = (props : IOptionList) => {
+
     return (
         <div className="column">
-            {options.map((element, index) => (
-                <Option label={element} conditional={true} resultId={"test"} key={index}/>
+            {props.options.map((element, index) => (
+                <Option 
+                option ={element}
+                key={index}/>
             ))}
         </div>
     )    

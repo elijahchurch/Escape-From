@@ -1,9 +1,11 @@
 import React from "react";
 import {IOption} from "../interfaces"
 
-const Option = (option: IOption) => {
+interface ISingleOption {option: IOption}
+
+const Option = (props: ISingleOption) => {
     return (
-        <button className="storyOptions">{option.label}</button>
+        <button className="storyOptions">{props.option.label}</button>
     )
 } 
 
