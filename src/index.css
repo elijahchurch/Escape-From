@@ -202,12 +202,14 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 15px
 }
 
 .grid-item{
   border-style: solid;
   min-height: 80px;
-  min-width: 40px;
+  max-height: 100px;
+  min-width: 60px;
 }
 
 #inventoryHeader {
@@ -219,6 +221,5 @@ body {
 }
 
 .inventoryImg {
-  width: 20px;
-  height: 20px;
+  width: 100%;
 }
