@@ -42,8 +42,7 @@
                 "label": "Use common Item",
                 "itemRef": "Common04",
                 "conditional" : false
-            },
-
+            }
         ]
     },
     "event02": {
