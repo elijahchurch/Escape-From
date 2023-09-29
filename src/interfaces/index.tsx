@@ -36,6 +36,7 @@ export interface IOption {
     resultId: string,
     label: string,
     itemRef?: string,
+    rarity: string,
     conditional:  boolean 
 }
 

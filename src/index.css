@@ -90,19 +90,8 @@ body {
 }
 
 .itemText{
-  color: white;
   text-align: center;
   margin-top: 1px;
-}
-
-.Character{
-  background-color: rgb(187, 42, 187);
-  border-color:rgb(91, 20, 157);
-}
-
-.Common{
-  background-color: rgb(30, 116, 228);
-  border-color: rgb(9, 9, 159);
 }
 
 .itemImg {
@@ -110,6 +99,25 @@ body {
   height: 150px;
   flex-direction: column;
 }
+
+/* Rarity coloring */
+.Generic{
+  background-color:rgb(245, 233, 233);
+  border-color:black;
+}
+
+.Character{
+  background-color: rgb(193, 71, 204);
+  border-color:rgb(91, 20, 157);
+  color: white;
+}
+
+.Common{
+  background-color: rgb(30, 116, 228);
+  border-color: rgb(9, 9, 159);
+  color: white;
+}
+
 /* Book styling */
 
 .book {

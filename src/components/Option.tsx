@@ -7,7 +7,7 @@ const Option = (props: ISingleOption) => {
     
     return (
         <button type="submit" 
-                className="storyOptions"
+                className={`storyOptions ${props.option.rarity}`}
                 onClick = {() => props.findPage(props.option.resultId)}> {props.option.label}</button>
     )
 } 

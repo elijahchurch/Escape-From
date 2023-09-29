@@ -6,28 +6,33 @@
             {
                 "resultId": "event02",
                 "label": "Jump like a maniac!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event03",
                 "label": "Dance your hear out",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event04",
                 "label": "Attac protec snuggle",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event05",
                 "label": "Use your sword",
                 "itemRef": "CharaItem01",
+                "rarity": "Character",
                 "conditional" : false
             },
             {
                 "resultId": "event05",
                 "label": "Use your wand",
                 "itemRef": "CharaItem03",
+                "rarity": "Character",
                 "conditional" : false
 
             },
@@ -35,12 +40,14 @@
                 "resultId": "event06",
                 "label": "Eat a banana",
                 "itemRef": "CharaItem05",
+                "rarity": "Character",
                 "conditional" : false
             },
             {
                 "resultId": "event06",
                 "label": "Use common Item",
                 "itemRef": "Common04",
+                "rarity": "Common",
                 "conditional" : false
             }
         ]
@@ -52,26 +59,31 @@
             {
                 "resultId": "event02",
                 "label": "Jump like a maniac!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Dance your heart out",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Attac protec snuggle",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Watch gonna doooo!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Eat all the mushrooms",
+                "rarity": "Generic",
                 "conditional" : true
             }
         ]
@@ -83,26 +95,31 @@
             {
                 "resultId": "event02",
                 "label": "Jump like a maniac!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Dance your hear out",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Attac protec snuggle",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Watch gonna doooo!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Eat all the mushrooms",
+                "rarity": "Generic",
                 "conditional" : true
             }
         ]
@@ -114,26 +131,31 @@
             {
                 "resultId": "event02",
                 "label": "Jump like a maniac!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Dance your hear out",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Attac protec snuggle",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Watch gonna doooo!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Eat all the mushrooms",
+                "rarity": "Generic",
                 "conditional" : true
             }
         ]
@@ -145,26 +167,31 @@
             {
                 "resultId": "event02",
                 "label": "Jump like a maniac!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Dance your hear out",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Attac protec snuggle",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Watch gonna doooo!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Eat all the mushrooms",
+                "rarity": "Generic",
                 "conditional" : true
             }
         ]
@@ -176,26 +203,31 @@
             {
                 "resultId": "event02",
                 "label": "Jump like a maniac!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Dance your hear out",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Attac protec snuggle",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Watch gonna doooo!",
+                "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "event02",
                 "label": "Eat all the mushrooms",
+                "rarity": "Generic",
                 "conditional" : true
             }
         ]
