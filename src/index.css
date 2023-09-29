@@ -118,6 +118,12 @@ body {
   color: white;
 }
 
+.Story{
+  background-color: rgb(16, 119, 80);
+  border-color: rgb(5, 53, 17);
+  color: white;
+}
+
 /* Book styling */
 
 .book {
