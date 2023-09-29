@@ -1,4 +1,4 @@
-import { IItem } from "../interfaces";
+import { IItem, ICharacter, IOption } from "../interfaces";
 
 export const rollD20 = () : number => {
     const roll = Math.floor(Math.random() * 20) + 1;
@@ -53,4 +53,21 @@ export const finalizeInventory = (itemArray: IItem[]) : IItem[] => {
     }
     const result = createInventoryArray()
     return itemArray;
+}
+
+export const getAvailableOptions = (options: IOption[], character: ICharacter) : IOption[] => {
+    let result : IOption[] = [];
+    options.forEach((option: IOption) => {
+        if(option.conditional === true) {
+            result.push(option)
+        }
+        else {
+            character.inventory.forEach((item: IItem) => {
+                if(item.id === option.itemRef) {
+                    result.push(option)
+                }
+            })
+        }
+    });
+    return result;
 }

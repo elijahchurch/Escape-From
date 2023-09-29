@@ -3,26 +3,14 @@ import React from "react";
 import { IOption, IItem} from "../interfaces";
 import {useContext} from "react";
 import { charaContext } from "../context/charaContext";
+import { getAvailableOptions} from "../Functions/businesslogic";
 
 interface IOptionList { options: IOption[], findPage: (id:string) => void}
 
 const OptionList = (props : IOptionList) => {
     
     const gameCharacter = useContext(charaContext);
-
-    let availableOptions :IOption[] = [];
-    props.options.forEach((option: IOption) => {
-        if(option.conditional === true) {
-            availableOptions.push(option)
-        }
-        else {
-            gameCharacter.inventory.forEach((item: IItem) => {
-                if(item.id === option.itemRef) {
-                    availableOptions.push(option)
-                }
-            })
-        }
-    });
+    const availableOptions: IOption[] = getAvailableOptions(props.options, gameCharacter);
 
     return (
         <div>
