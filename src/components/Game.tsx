@@ -31,6 +31,11 @@ const Game = () => {
         setgameScreen(3);
     }
 
+    const addItem = (itemId: string) : void => {
+        const foundItem = items[itemId];
+        setgameCharacter({...gameCharacter, "inventory": gameCharacter.inventory.concat(foundItem)});
+    }
+
     let continueButton = null;
     let gameDisplay = null;
     if(gameScreen === 2) {
@@ -43,7 +48,7 @@ const Game = () => {
     }
     else if(gameScreen === 3){
         gameDisplay = 
-            <Book/>
+            <Book addItem={addItem}/>
     }
     else {
         if(gameCharacter.id !== "dummy01"){
