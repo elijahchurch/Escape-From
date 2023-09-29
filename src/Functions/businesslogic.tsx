@@ -37,7 +37,7 @@ export const rollForTwoNumbers = () : number[] | void => {
 
 export const finalizeInventory = (itemArray: IItem[]) : IItem[] => {
     const createInventoryArray = ()  : IItem[] | void => {
-        if(itemArray.length === 18) {
+        if(itemArray.length === 16) {
             return itemArray;
         }
         else {
