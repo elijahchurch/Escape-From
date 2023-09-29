@@ -41,6 +41,7 @@
                 "resultId": "event06",
                 "label": "Eat a banana",
                 "itemRef": "CharaItem05",
+                "removeItem": "CharaItem05",
                 "rarity": "Character",
                 "conditional" : false
             },
