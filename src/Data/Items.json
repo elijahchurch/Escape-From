@@ -138,5 +138,12 @@
         "uses": 1,
         "flavor": "test",
         "rarity": "Common"
+    }, 
+    "story01": {
+        "id": "story01",
+        "name": "key",
+        "uses": 1,
+        "flavor": "A key to the chest",
+        "rarity": "Story"
     }
 }
