@@ -1,7 +1,7 @@
 import OptionList from "./OptionList";
 import { IPage } from "../interfaces";
 
-interface ILeftPage {page: IPage, findPage: (id: string) => void }
+interface ILeftPage {page: IPage, findPage: (id: string) => void, addItem: (itemId: string) => void }
 
 const LeftPage = (props: ILeftPage) => {
 
@@ -11,8 +11,10 @@ const LeftPage = (props: ILeftPage) => {
                 <div id="storyText">
                     <p>{props.page.eventText}</p>
                 </div>
-                <OptionList options={props.page.options}
-                            findPage= {props.findPage}/>
+                <OptionList 
+                    options={props.page.options}
+                    findPage= {props.findPage}
+                    addItem={props.addItem}       />
             </div>
         </div>
     )

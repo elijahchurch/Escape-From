@@ -5,7 +5,7 @@ import {useContext} from "react";
 import { charaContext } from "../context/charaContext";
 import { getAvailableOptions} from "../Functions/businesslogic";
 
-interface IOptionList { options: IOption[], findPage: (id:string) => void}
+interface IOptionList { options: IOption[], findPage: (id:string) => void, addItem: (itemId: string) => void}
 
 const OptionList = (props : IOptionList) => {
     
@@ -19,6 +19,7 @@ const OptionList = (props : IOptionList) => {
                 <Option 
                 option ={element}
                 findPage={props.findPage}
+                addItem={props.addItem}
                 key={index}/>
             ))}
         </div>
