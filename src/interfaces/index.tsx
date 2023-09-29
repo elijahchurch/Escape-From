@@ -35,7 +35,8 @@ export interface IOption {
     //Note: id points to a story option. It is not unique to the option. Options in different pages may have the same id, which points to the same page that it can move to.
     resultId: string,
     label: string,
-    conditional: Conditional | boolean 
+    itemRef?: string,
+    conditional:  boolean 
 }
 
 //Reference if interFace has an associatedItemId:

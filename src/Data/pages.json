@@ -20,14 +20,30 @@
             },
             {
                 "resultId": "event05",
-                "label": "Watch gonna doooo!",
-                "conditional" : true
+                "label": "Use your sword",
+                "itemRef": "CharaItem01",
+                "conditional" : false
+            },
+            {
+                "resultId": "event05",
+                "label": "Use your wand",
+                "itemRef": "CharaItem03",
+                "conditional" : false
+
             },
             {
                 "resultId": "event06",
-                "label": "Eat all the mushrooms",
-                "conditional" : true
-            }
+                "label": "Eat a banana",
+                "itemRef": "CharaItem05",
+                "conditional" : false
+            },
+            {
+                "resultId": "event06",
+                "label": "Use common Item",
+                "itemRef": "Common04",
+                "conditional" : false
+            },
+
         ]
     },
     "event02": {
