@@ -5,7 +5,8 @@
         "options": [
             {
                 "resultId": "event02",
-                "label": "Jump like a maniac!",
+                "label": "Look Under the bed!",
+                "addItem": "story01",
                 "rarity": "Generic",
                 "conditional" : true
             },
