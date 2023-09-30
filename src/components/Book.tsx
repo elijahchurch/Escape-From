@@ -6,7 +6,7 @@ import {useState} from "react";
 
 const pages = pageData as IPageData;
 
-interface IBook{addItem: (itemId: string) =>  void}
+interface IBook{addItem: (itemId: string) =>  void, removeItem: (itemId: string) => void}
 
 const Book = (props: IBook) => {
     const [page, setPage] = useState(pages["event01"])
@@ -21,7 +21,8 @@ const Book = (props: IBook) => {
             <LeftPage   
                 page={page} 
                 findPage={findPage}
-                addItem={props.addItem}/>
+                addItem={props.addItem}
+                removeItem={props.removeItem}/>
         </div>
     )
 }

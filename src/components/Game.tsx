@@ -37,8 +37,8 @@ const Game = () => {
     }
 
     const removeItem = (itemId: string) : void => {
-        const newInventory = gameCharacter.inventory.filter((item) => item.id !== itemId)
-                setgameCharacter({...gameCharacter, "inventory": newInventory})
+        const newInventory = gameCharacter.inventory.filter((item) => item.id !== itemId);
+        setgameCharacter({...gameCharacter, "inventory": newInventory});
     }
 
     let continueButton = null;
@@ -53,7 +53,9 @@ const Game = () => {
     }
     else if(gameScreen === 3){
         gameDisplay = 
-            <Book addItem={addItem}/>
+            <Book 
+                addItem={addItem}
+                removeItem={removeItem}/>
     }
     else {
         if(gameCharacter.id !== "dummy01"){
