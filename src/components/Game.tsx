@@ -36,6 +36,11 @@ const Game = () => {
         setgameCharacter({...gameCharacter, "inventory": gameCharacter.inventory.concat(foundItem)});
     }
 
+    const removeItem = (itemId: string) : void => {
+        const newInventory = gameCharacter.inventory.filter((item) => item.id !== itemId)
+                setgameCharacter({...gameCharacter, "inventory": newInventory})
+    }
+
     let continueButton = null;
     let gameDisplay = null;
     if(gameScreen === 2) {
