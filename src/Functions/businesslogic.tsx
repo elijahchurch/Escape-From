@@ -1,15 +1,15 @@
 import { IItem, ICharacter, IOption } from "../interfaces";
 
-export const rollD20 = () : number => {
-    const roll = Math.floor(Math.random() * 20) + 1;
+export const rollD10 = () : number => {
+    const roll = Math.floor(Math.random() * 10) + 1;
     return roll;
 };
 
 
 
 export const rollForTwoNumbers = () : number[] | void => {
-    const firstRoll = rollD20();
-    const secondRoll = rollD20();
+    const firstRoll = rollD10();
+    const secondRoll = rollD10();
     if(firstRoll !== secondRoll) {
         return [firstRoll, secondRoll];
     } else {
