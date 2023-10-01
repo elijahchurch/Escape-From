@@ -8,9 +8,9 @@ import { getAvailableOptions} from "../Functions/businesslogic";
 interface IOptionList { options: IOption[], findPage: (id:string) => void, addItem: (itemId: string) => void, removeItem: (itemId: string) => void}
 
 const OptionList = (props : IOptionList) => {
-    
+    const {options, findPage, addItem, removeItem} = props;    
     const gameCharacter = useContext(charaContext);
-    const availableOptions: IOption[] = getAvailableOptions(props.options, gameCharacter);
+    const availableOptions: IOption[] = getAvailableOptions(options, gameCharacter);
 
     return (
         <div>
@@ -18,9 +18,9 @@ const OptionList = (props : IOptionList) => {
             {availableOptions.map((element, index) => (
                 <Option 
                 option ={element}
-                findPage={props.findPage}
-                addItem={props.addItem}
-                removeItem={props.removeItem}
+                findPage={findPage}
+                addItem={addItem}
+                removeItem={removeItem}
                 key={index}/>
             ))}
         </div>

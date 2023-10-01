@@ -4,21 +4,22 @@ interface ISingleOption {option: IOption, findPage: (id:string) => void, addItem
 
 
 const Option = (props: ISingleOption) => {
+    const { option, findPage, addItem, removeItem} = props;
 
     const handleOptionClick = () : void => {
-        if(props.option.addItem) {
-            props.addItem(props.option.addItem);
+        if(option.addItem) {
+            addItem(option.addItem);
         }
-        if(props.option.removeItem) {
-            props.removeItem(props.option.removeItem);
+        if(option.removeItem) {
+            removeItem(option.removeItem);
         }
-        props.findPage(props.option.resultId);
+        findPage(option.resultId);
     } 
     
     return (
         <button type="submit" 
-                className={`storyOptions ${props.option.rarity}`}
-                onClick = {() => handleOptionClick()}> {props.option.label}</button>
+                className={`storyOptions ${option.rarity}`}
+                onClick = {() => handleOptionClick()}> {option.label}</button>
     )
 } 
 
