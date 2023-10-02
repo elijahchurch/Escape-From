@@ -33,7 +33,7 @@ const ItemSelect = (props: IItemSelect) => {
                 <hr/>
                 <div className="inventorySelectDiv">
                     {randomItems.map((element) => 
-                        <div className={`itemCard ${element.rarity}`}>
+                        <div  key={element.id} className={`itemCard ${element.rarity}`}>
                             <ItemCard Item={element} key={element.id} rarity={element.rarity} itemSize="itemImg"/>
                         </div>
                     )}
@@ -48,7 +48,7 @@ const ItemSelect = (props: IItemSelect) => {
         <hr/>
         <div className="inventorySelectDiv">
             {gameCharacter.inventory.map((element) => 
-                <div className={`itemCard ${element.rarity}`}>
+                <div key={element.id} className={`itemCard ${element.rarity}`}>
                     <ItemCard Item={element} key={element.id} rarity={element.rarity} itemSize="itemImg"/>
                 </div>
             )}
