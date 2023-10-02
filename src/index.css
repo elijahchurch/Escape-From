@@ -1,7 +1,9 @@
 body {
   block-size: auto;
   text-align: center;
-  background-color: #e5e4e1;
+  background-image: linear-gradient(45deg, #7400B8 ,#6930C3 , #5E60CE , #5390D9 , #4EA8DE , #48BFE3, #56CFE1, #64DFDF, #72EFDD, #80FFDB);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 /* Header styling */
