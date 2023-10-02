@@ -43,21 +43,8 @@ const Game = () => {
 
     let continueButton = null;
     let gameDisplay = null;
-    if(gameScreen === 2) {
-        gameDisplay =
-            <div className="initialcontainers">
-                <ItemSelect 
-                    commonItems = {items}
-                    handleClick={continueWithInventory}/>
-            </div>
-    }
-    else if(gameScreen === 3){
-        gameDisplay = 
-            <Book 
-                addItem={addItem}
-                removeItem={removeItem}/>
-    }
-    else {
+
+    if(gameScreen === 1) {
         if(gameCharacter.id !== "dummy01"){
             continueButton = <button onClick={() => {setgameScreen(2)}}>Continue</button>
         }
@@ -69,6 +56,21 @@ const Game = () => {
                 {continueButton}
             </div>
     }
+    else if(gameScreen === 2) {
+        gameDisplay =
+            <div className="initialcontainers">
+                <ItemSelect 
+                    commonItems = {items}
+                    handleClick={continueWithInventory}/>
+            </div>
+    }
+    else {
+        gameDisplay = 
+            <Book 
+                addItem={addItem}
+                removeItem={removeItem}/>
+    }
+
     return (
         <charaContext.Provider value = {gameCharacter}>
             {gameDisplay}
