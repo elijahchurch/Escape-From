@@ -1,7 +1,7 @@
 body {
   block-size: auto;
   text-align: center;
-  background-image: linear-gradient(45deg, #7400B8 ,#6930C3 , #5E60CE , #5390D9 , #4EA8DE , #48BFE3, #56CFE1, #64DFDF, #72EFDD, #80FFDB);
+  background-image: linear-gradient(45deg, #ABC4FF ,#B6CCFE , #C1D3FE , #CCDBFD , #D7E3FC , #E2EAFC, #56CFE1);
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -16,7 +16,7 @@ body {
   overflow: hidden;
   height: 50px;
   width: 100%;
-  background-color: rgb(182, 193, 190);
+  background-color: #246A73;
 }
 
 #HeaderTitle{
@@ -24,9 +24,6 @@ body {
   font-size: 40px;
   margin-top: auto;
   margin-left: 8px;
-  background-image: linear-gradient(to left, #3c14ab, #9d51ea);
-  color: transparent;
-  background-clip: text;
 }
 
 .HeaderButtons{
@@ -55,12 +52,13 @@ body {
 
 .initialcontainers{
   border-style: solid;
+  border-color: #160F29;
   width: 800px;
   margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
-  background-color: rgb(116, 136, 160);
+  background-color: #368F8B;
 }
 
 /* Character Select Screen */
@@ -163,7 +161,8 @@ body {
   border-color: rgb(52, 29, 3);
   width: 50%;
   min-width: 500px;
-  background-image: repeating-linear-gradient(36deg, rgb(242, 236, 121), rgb(246, 231, 101) 1px, transparent 0px, transparent 2px);
+  /* background-image: repeating-linear-gradient(36deg, rgb(242, 236, 121), rgb(246, 231, 101) 1px, transparent 0px, transparent 2px); */
+  background-color: #F3DFC1;
 }
 
 /* .page::backdrop {
@@ -243,7 +242,7 @@ body {
   width: 90%;
   padding: 10px;
   padding-top: 20px;
-  background-color: rgb(233, 207, 139);
+  background-color: #DDBEA8;
 }
 
 #inventoryGrid{
@@ -272,7 +271,7 @@ body {
   border-style: solid;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-color: rgb(233, 207, 139);
+  background-color: #DDBEA8;
   border-bottom: 0;
   width: 150px;
   margin-left: auto;
