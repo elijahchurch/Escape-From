@@ -58,6 +58,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
+  background-color: rgb(116, 136, 160);
 }
 
 /* Character Select Screen */
@@ -191,6 +192,7 @@ body {
 
 #picturePage{
   border-style: solid;
+  border-radius: 5px;
   height: 45%;
   width: 90%;
   margin-top: 25px;
@@ -226,15 +228,19 @@ body {
 
 #characterPicture{
   border-style: solid;
+  border-radius: 5px;
 }
 
 #characterFlavor{
   display: flex;
   border-style: solid;
+  border-radius: 5px;
+  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   width: 90%;
-  padding: 8px;
+  padding: 10px;
+  padding-top: 20px;
   background-color: rgb(233, 207, 139);
 }
 
@@ -262,6 +268,8 @@ body {
 
 #inventoryHeader {
   border-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-color: rgb(233, 207, 139);
   border-bottom: 0;
   width: 150px;
