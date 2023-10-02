@@ -17,7 +17,7 @@ const InventoryList = (props: IInventoryList) => {
                         return (<div className="grid-item empty" key={index}></div>)
                     }
                     else{
-                        return ( <div className="grid-item" key={index}>
+                        return ( <div className={`grid-item ${item.rarity}`} key={index}>
                                     <ItemCard 
                                         Item={item} 
                                         rarity={item.rarity}
