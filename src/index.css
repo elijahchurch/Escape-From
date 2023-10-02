@@ -1,6 +1,7 @@
 body {
   block-size: auto;
   text-align: center;
+  background-color: #e5e4e1;
 }
 
 /* Header styling */
@@ -145,12 +146,18 @@ body {
 
 }
 
+
 .page {
   display: flex;
   flex-direction: row;
   border-style: solid;
+  border-color: rgb(6, 5, 5);
   width: 50%;
   min-width: 500px;
+  /* background-image: repeating-linear-gradient(36deg, rgb(215, 213, 173), rgb(218, 240, 152) 1px, transparent 0px, transparent 2px); */
+  background-color: #e2ccad;
+  -webkit-mask-image: url("../src/Assets/img/texture.png");
+  mask-image: url("../src/Assets/img/texture.png");
 }
 
 
