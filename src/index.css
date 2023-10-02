@@ -11,21 +11,29 @@ body {
   top: 0;
   left: 0;
   overflow: hidden;
-  height: 40px;
+  height: 50px;
   width: 100%;
+  background-color: rgb(182, 193, 190);
 }
 
 #HeaderTitle{
   float:left;
-  font-size: large;
+  font-size: 40px;
+  margin-top: auto;
+  margin-left: 8px;
+  background-image: linear-gradient(to left, #3c14ab, #9d51ea);
+  color: transparent;
+  background-clip: text;
 }
 
 .HeaderButtons{
   float: right;
   border: 4px;
+  border-style: solid;
+  border-width: 2px;
   border-color: black;
   height: 100%;
-  width: 5%;
+  width: 100px;
   margin-left: 5px;
   background-color: rgb(72, 119, 206);
 }
