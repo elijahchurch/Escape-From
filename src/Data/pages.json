@@ -1,7 +1,7 @@
 {
     "event01": {
         "id": "event01",
-        "eventText" : "You find yourself in a dark room. I need to write quite a bit of text here to get things moving.",
+        "eventText" : "You find yourself in a dark room. I need to write quite a bit of text here to get things moving. Let's add a ton of more text to test transitions. Not sure what will be the best solution to this. Don't want text to appear out of div.",
         "options": [
             {
                 "resultId": "event02",

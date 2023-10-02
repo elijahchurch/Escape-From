@@ -1,5 +1,6 @@
 import OptionList from "./OptionList";
 import { IPage } from "../interfaces";
+import ReactTextTransition from "react-text-transition";
 
 interface ILeftPage {page: IPage, findPage: (id: string) => void, addItem: (itemId: string) => void, removeItem: (itemId: string) => void }
 
@@ -10,7 +11,11 @@ const LeftPage = (props: ILeftPage) => {
         <div className="page">
             <div className="column fill">
                 <div id="storyText">
-                    <p>{page.eventText}</p>
+                    
+                        <ReactTextTransition>
+                        <p>{`${page.eventText}`.split("")}</p>
+                        </ReactTextTransition>
+                    
                 </div>
                 <OptionList 
                     options={page.options}
