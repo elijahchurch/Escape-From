@@ -6,7 +6,6 @@
             {
                 "resultId": "page02",
                 "label": "Start banging on the cell bars and yell for 'help'.",
-                "addItem": "story01",
                 "rarity": "Generic",
                 "conditional" : true
             },
@@ -56,7 +55,7 @@
     },
     "page02": {
         "id": "page02",
-        "pageText" : "Your cries for help draw the attention of the castle jailor. He is a towering figure wearing a black executioner mask. In his hand, he holds a double edged axe, and at his waist you can see a ring of keys. 'Stop that hollering right now', he demands, gripping his axe tighter. 'I'm trying to enjoy my smoke break!'",
+        "pageText" : "Your cries for help draw the attention of the castle jailor. He is a towering figure wearing a black executioner mask. In his hand, he holds a large axe, and at his waist you can see a ring of keys. 'Stop that hollering right now', he demands, gripping his axe tighter. 'I'm trying to enjoy my smoke break!'",
         "options": [
             {
                 "resultId": "page02",
