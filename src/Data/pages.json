@@ -47,7 +47,7 @@
             {
                 "resultId": "page08",
                 "label": "Attempt to pick the lock with your lock pick.",
-                "itemRef": "Common08",
+                "itemRef": "Common8",
                 "rarity": "Common",
                 "conditional" : false
             }

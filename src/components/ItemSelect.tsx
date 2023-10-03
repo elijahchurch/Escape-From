@@ -12,7 +12,7 @@ const ItemSelect = (props: IItemSelect) => {
         const numbers = rollForTwoNumbers();
         let chosenItems : IItem[] = [];
         numbers?.forEach((e) => {
-            chosenItems.push(props.commonItems["common" + e])
+            chosenItems.push(props.commonItems["Common" + e])
         })
         setrandomItems(chosenItems);
     }
