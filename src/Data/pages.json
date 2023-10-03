@@ -1,7 +1,7 @@
 {
     "event01": {
         "id": "event01",
-        "eventText" : "You find yourself in a dark room. I need to write quite a bit of text here to get things moving.",
+        "eventText" : "You find yourself locked in a cell in a dark stone basement. You sit on a cot with no furnishings. Moonlight shining down from a small, slightly damaged, barred window above you and the flickering of candle light further down the hall act as your only light sources. You need to find a way to escape this room.",
         "options": [
             {
                 "resultId": "event02",
