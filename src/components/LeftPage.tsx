@@ -10,7 +10,7 @@ const LeftPage = (props: ILeftPage) => {
         <div className="page">
             <div className="column fill">
                 <div id="storyText">
-                    <p>{page.eventText}</p>
+                    <p>{page.pageText}</p>
                 </div>
                 <OptionList 
                     options={page.options}

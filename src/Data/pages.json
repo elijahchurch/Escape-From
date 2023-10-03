@@ -1,36 +1,36 @@
 {
-    "event01": {
-        "id": "event01",
-        "eventText" : "You find yourself locked in a cell in a dark stone basement. You sit on a cot with no furnishings. Moonlight shining down from a small, slightly damaged, barred window above you and the flickering of candle light further down the hall act as your only light sources. You need to find a way to escape this room.",
+    "page01": {
+        "id": "page01",
+        "pageText" : "You find yourself locked in a cell in a dark stone basement. You sit on a cot with no furnishings. Moonlight shining down from a small, slightly damaged, barred window above you and the flickering of candle light further down the hall act as your only light sources. You need to find a way to escape this room.",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Look Under the bed!",
                 "addItem": "story01",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event03",
+                "resultId": "page03",
                 "label": "Dance your hear out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event04",
+                "resultId": "page04",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event05",
+                "resultId": "page05",
                 "label": "Use your sword",
                 "itemRef": "CharaItem01",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
-                "resultId": "event05",
+                "resultId": "page05",
                 "label": "Use your wand",
                 "itemRef": "CharaItem03",
                 "rarity": "Character",
@@ -38,7 +38,7 @@
 
             },
             {
-                "resultId": "event06",
+                "resultId": "page06",
                 "label": "Eat a banana",
                 "itemRef": "CharaItem05",
                 "removeItem": "CharaItem05",
@@ -46,7 +46,7 @@
                 "conditional" : false
             },
             {
-                "resultId": "event06",
+                "resultId": "page06",
                 "label": "Use common Item",
                 "itemRef": "Common04",
                 "rarity": "Common",
@@ -54,180 +54,180 @@
             }
         ]
     },
-    "event02": {
-        "id": "event02",
-        "eventText" : "Test 2. You are in event 2.",
+    "page02": {
+        "id": "page02",
+        "pageText" : "Test 2. You are in page 2.",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your heart out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true
             }
         ]
     },
-    "event03": {
-        "id": "event03",
-        "eventText" : "Goooriillllaa!! Test 3. You are in event 3.",
+    "page03": {
+        "id": "page03",
+        "pageText" : "Goooriillllaa!! Test 3. You are in page 3.",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your hear out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true
             }
         ]
     },
-    "event04": {
-        "id": "event04",
-        "eventText" : "4444444444444444444",
+    "page04": {
+        "id": "page04",
+        "pageText" : "4444444444444444444",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your hear out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true
             }
         ]
     },
-    "event05": {
-        "id": "event05",
-        "eventText" : "Five Heroes tell you that you have arrived to event 5.",
+    "page05": {
+        "id": "page05",
+        "pageText" : "Five Heroes tell you that you have arrived to page 5.",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your hear out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true
             }
         ]
     },
-    "event06": {
-        "id": "event06",
-        "eventText" : "You definitely shouldn't be here at Event 06!!!!",
+    "page06": {
+        "id": "page06",
+        "pageText" : "You definitely shouldn't be here at page 06!!!!",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your hear out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true
