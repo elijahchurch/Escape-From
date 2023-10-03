@@ -1,58 +1,58 @@
 {
     "common1": {
         "id": "common1",
-        "name": "test1",
+        "name": "Lantern",
         "uses": 1,
-        "flavor": "test",
+        "flavor": "A basic lantern to use as a light source",
         "rarity": "Common"
     },
     "common2": {
         "id": "common2",
-        "name": "test2",
+        "name": "Rope",
         "uses": 1,
-        "flavor": "test",
+        "flavor": "A sturdy length of rope",
         "rarity": "Common"
     },
     "common3": {
         "id": "common3",
-        "name": "test3",
+        "name": "Crowbar",
         "uses": 1,
-        "flavor": "test",
+        "flavor": "A hefty crowbar that can be used for leverage or a makeshift weapon",
         "rarity": "Common"
     },
     "common4": {
         "id": "common4",
-        "name": "test4",
+        "name": "Bell",
         "uses": 1,
-        "flavor": "test",
+        "flavor": "A bell with a cute albeit slightly annoying ring",
         "rarity": "Common"
     },
     "common5": {
         "id": "common5",
-        "name": "test5",
+        "name": "Magnifying Glass",
         "uses": 1,
-        "flavor": "test",
+        "flavor": "Useful for inspecting small items",
         "rarity": "Common"
     },
     "common6": {
         "id": "common6",
-        "name": "test6",
+        "name": "Perfume Bottle",
         "uses": 1,
-        "flavor": "test",
+        "flavor": "A bottle of fragrant perfume",
         "rarity": "Common"
     },
     "common7": {
         "id": "common7",
-        "name": "test7",
+        "name": "Fishing Rod",
         "uses": 1,
-        "flavor": "test",
+        "flavor": "Just in case you need to go fishing",
         "rarity": "Common"
     },
     "common8": {
         "id": "common8",
-        "name": "test8",
+        "name": "Matches",
         "uses": 1,
-        "flavor": "test",
+        "flavor": "A box of matches",
         "rarity": "Common"
     },
     "common9": {
