@@ -1,7 +1,6 @@
 const PicturePage = () => {
     return(
-        <h1 id="picturePage">Picture will go here</h1>
-
+        <img src="img/imagination.jpeg" id="picturePage"></img>
     )
 }
 

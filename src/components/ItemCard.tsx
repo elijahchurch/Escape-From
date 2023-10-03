@@ -1,14 +1,15 @@
 import { IItem } from "../interfaces";
+import React from "react";
 
 interface IItemCard { Item: IItem, rarity: string, itemSize: string}
 
 const ItemCard = (props: IItemCard) => {
 
     return(
-        <div className={`itemCard ${props.rarity}`}>
+        <React.Fragment>
             <img className={props.itemSize} src="img/img-test.jpg"/>
             <p className="itemText" >{props.Item.name}</p>
-        </div>
+        </React.Fragment>
     )
 
 }
