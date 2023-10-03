@@ -45,13 +45,13 @@
     },
     "chara03" : {
         "id": "chara03",
-        "name": "A gorilla",
+        "name": "Gorilla",
         "portrait": "img/Gorilla-test.jpg",
         "flavor":"A gorilla. Just that.",
         "inventory": [
             {
                 "id": "CharaItem05",
-                "name": "Bananas",
+                "name": "Pile of Bananas",
                 "uses": 10,
                 "flavor": "A whole group of yummie bananas",
                 "rarity": "Character"
