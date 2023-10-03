@@ -1,54 +1,54 @@
 {
     "page01": {
         "id": "page01",
-        "pageText" : "You find yourself locked in a cell in a dark stone basement. You sit on a cot with no furnishings. Moonlight shining down from a small, slightly damaged, barred window above you and the flickering of candle light further down the hall act as your only light sources. You need to find a way to escape this room.",
+        "pageText" : "You find yourself locked in a cell in an ominous stone basement. You sit on a cot with no furnishings. Moonlight shining down from a small, slightly damaged, barred window above you and the flickering of candle light further down the hall act as your only light sources. You need to find a way to escape this room.",
         "options": [
             {
                 "resultId": "page02",
-                "label": "Look Under the bed!",
+                "label": "Start banging on the cell bars and yell for 'help'.",
                 "addItem": "story01",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page03",
-                "label": "Dance your hear out",
+                "label": "Check under the cot if you can find anything.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page04",
-                "label": "Attac protec snuggle",
+                "label": "Try to remove the frame of the damaged window.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page05",
-                "label": "Use your sword",
+                "label": "Smash the cot in half with your club in a fit of rage.",
                 "itemRef": "CharaItem01",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
-                "resultId": "page05",
-                "label": "Use your wand",
+                "resultId": "page06",
+                "label": "Bake a delicious pie with your spatula while you ponder your situation.",
                 "itemRef": "CharaItem03",
                 "rarity": "Character",
                 "conditional" : false
 
             },
             {
-                "resultId": "page06",
-                "label": "Eat a banana",
+                "resultId": "page07",
+                "label": "Eat a banana, yummy banana.",
                 "itemRef": "CharaItem05",
                 "removeItem": "CharaItem05",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
-                "resultId": "page06",
-                "label": "Use common Item",
-                "itemRef": "Common04",
+                "resultId": "page08",
+                "label": "Attempt to pick the lock with your lock pick.",
+                "itemRef": "Common08",
                 "rarity": "Common",
                 "conditional" : false
             }
@@ -56,7 +56,7 @@
     },
     "page02": {
         "id": "page02",
-        "pageText" : "Test 2. You are in page 2.",
+        "pageText" : "Your cries for help draw the attention of the castle jailor. He is a towering figure wearing a black executioner mask. In his hand, he holds a double edged axe, and at his waist you can see a ring of keys. 'Stop that hollering right now', he demands, gripping his axe tighter. 'I'm trying to enjoy my smoke break!'",
         "options": [
             {
                 "resultId": "page02",
@@ -92,7 +92,7 @@
     },
     "page03": {
         "id": "page03",
-        "pageText" : "Goooriillllaa!! Test 3. You are in page 3.",
+        "pageText" : "Under the cot, you notice one of the stone tiles on the floor is loose. You lift it to reveal someone before you has dug a deep hole that leads down into the dark. Suddenly you hear heavy footsteps coming down the hall. Without thinking you jump down into the hole. You stand up and find yourself in a murky cavern.",
         "options": [
             {
                 "resultId": "page02",
@@ -128,7 +128,7 @@
     },
     "page04": {
         "id": "page04",
-        "pageText" : "4444444444444444444",
+        "pageText" : "With minimal effort, you are able to pull the frame of the damaged window out. You lift yourself up through the window and emerge atop a ditch at the base of the castle's interior courtyard garden. Vibrant and unnatural flora surrounds you here. A small path leads deeper into this thick vegetation to your left. Ahead of you looms the walls and entrance of a giant hedge maze. To your right, next to an eeire pond, a tree twists and weaves upwards to what looks like an open 2nd floor window.",
         "options": [
             {
                 "resultId": "page02",
@@ -164,7 +164,7 @@
     },
     "page05": {
         "id": "page05",
-        "pageText" : "Five Heroes tell you that you have arrived to page 5.",
+        "pageText" : "You angrily smash and splinter your cot in half.",
         "options": [
             {
                 "resultId": "page02",
@@ -200,7 +200,43 @@
     },
     "page06": {
         "id": "page06",
-        "pageText" : "You definitely shouldn't be here at page 06!!!!",
+        "pageText" : "Trying to make the most of your situation, you conjure a delicious applie pie with the flick of your wand.",
+        "options": [
+            {
+                "resultId": "page02",
+                "label": "Jump like a maniac!",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Dance your hear out",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Attac protec snuggle",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Watch gonna doooo!",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Eat all the mushrooms",
+                "rarity": "Generic",
+                "conditional" : true
+            }
+        ]
+    },
+    "page07": {
+        "id": "page07",
+        "pageText" : "You eat one of your bananas and throw the peel through the bars out into the basement hallway.",
         "options": [
             {
                 "resultId": "page02",

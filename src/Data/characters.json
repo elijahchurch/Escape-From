@@ -7,9 +7,9 @@
         "inventory": [
             {
                 "id": "CharaItem01",
-                "name": "Great Sword",
+                "name": "Giant Club",
                 "uses": 1,
-                "flavor": "A powerful hefty sword",
+                "flavor": "A powerful hefty clubD",
                 "rarity": "Character"
             },
             {
