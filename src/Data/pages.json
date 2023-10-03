@@ -5,7 +5,7 @@
         "options": [
             {
                 "resultId": "page02",
-                "label": "Start banging on the cell bars and yell for 'help'.",
+                "label": "Bang on the cell bars and yell for 'help'.",
                 "rarity": "Generic",
                 "conditional" : true
             },
@@ -163,7 +163,7 @@
     },
     "page05": {
         "id": "page05",
-        "pageText" : "You angrily smash and splinter your cot in half.",
+        "pageText" : "You angrily smash and splinter your cot in half. This draws the attention of the castle jailor - a towering man wearing a black executioner mask - who comes stampeding down the hallway with a large axe in hand. 'I built that cot from scratch in my WoodShop 101 class!', he yells. 'How dare you destroy my precious work', he yells quieter (some would say whimpers). 'You will pay for this!' He opens your cell and prepares to attack you.",
         "options": [
             {
                 "resultId": "page02",
@@ -199,7 +199,7 @@
     },
     "page06": {
         "id": "page06",
-        "pageText" : "Trying to make the most of your situation, you conjure a delicious applie pie with the flick of your wand.",
+        "pageText" : "Trying to make the most of your situation, you conjure a delicious applie pie with the flick of your wand. The aroma from the pie is mesmorizing. It wafts in the air and catches the attention of the castle jailor on his smoke break.",
         "options": [
             {
                 "resultId": "page02",
