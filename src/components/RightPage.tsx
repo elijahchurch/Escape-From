@@ -10,7 +10,7 @@ const RightPage = () => {
     const gameCharacter = useContext(charaContext);
 
     return(
-        <div className="page">
+        <div className="page" id="right">
             <div className="column fill">
                 <PicturePage/>
                 <CharacterInfo character={gameCharacter}/>
