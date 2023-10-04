@@ -46,7 +46,12 @@ const Game = () => {
 
     if(gameScreen === 1) {
         if(gameCharacter.id !== "dummy01"){
-            continueButton = <button onClick={() => {setgameScreen(2)}}>Continue</button>
+            continueButton = 
+                <button className="gameButton" onClick={() => {setgameScreen(2)}}>
+                        <span className="transition"></span>
+                        <span className="gradient"></span>
+                        <span className="label">Continue</span>
+                </button>
         }
         gameDisplay = 
             <div className="initialcontainers">

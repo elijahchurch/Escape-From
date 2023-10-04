@@ -24,7 +24,11 @@ const ItemSelect = (props: IItemSelect) => {
         rollDisplay = 
             <React.Fragment>
                 <h3> Roll to see what other two random items you get!</h3>
-                <button onClick={() => rollForItems()}>Roll</button>
+                <button className="gameButton" onClick={() => rollForItems()}>
+                        <span className="transition"></span>
+                        <span className="gradient"></span>
+                        <span className="label">Roll</span>
+                </button>
             </React.Fragment>
     } else {
         rollDisplay = 
@@ -38,7 +42,12 @@ const ItemSelect = (props: IItemSelect) => {
                         </div>
                     )}
                 </div>
-                <button onClick={() => props.handleClick(randomItems)}>Continue</button>
+                <button className="gameButton" onClick={() => props.handleClick(randomItems)}>
+                        <span className="transition"></span>
+                        <span className="gradient"></span>
+                        <span className="label">Continue</span>
+                </button>
+
             </React.Fragment>
     }
 
