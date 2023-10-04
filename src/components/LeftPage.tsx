@@ -11,11 +11,7 @@ const LeftPage = (props: ILeftPage) => {
         <div className="page">
             <div className="column fill">
                 <div id="storyText">
-                    
-                        <ReactTextTransition>
-                        <p>{`${page.eventText}`.split("")}</p>
-                        </ReactTextTransition>
-                    
+                    <p>{page.pageText}</p>
                 </div>
                 <OptionList 
                     options={page.options}

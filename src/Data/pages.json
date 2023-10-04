@@ -1,233 +1,268 @@
 {
-    "event01": {
-        "id": "event01",
-        "eventText" : "You find yourself in a dark room. I need to write quite a bit of text here to get things moving. Let's add a ton of more text to test transitions. Not sure what will be the best solution to this. Don't want text to appear out of div.",
+    "page01": {
+        "id": "page01",
+        "pageText" : "You find yourself locked in a cell in an ominous stone basement. You sit on a cot with no furnishings. Moonlight shining down from a small, slightly damaged, barred window above you and the flickering of candle light further down the hall act as your only light sources. You need to find a way to escape this room.",
         "options": [
             {
-                "resultId": "event02",
-                "label": "Look Under the bed!",
-                "addItem": "story01",
+                "resultId": "page02",
+                "label": "Bang on the cell bars and yell for 'help'.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event03",
-                "label": "Dance your hear out",
+                "resultId": "page03",
+                "label": "Check under the cot if you can find anything.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event04",
-                "label": "Attac protec snuggle",
+                "resultId": "page04",
+                "label": "Try to remove the frame of the damaged window.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event05",
-                "label": "Use your sword",
+                "resultId": "page05",
+                "label": "Smash the cot in half with your club in a fit of rage.",
                 "itemRef": "CharaItem01",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
-                "resultId": "event05",
-                "label": "Use your wand",
+                "resultId": "page06",
+                "label": "Bake a delicious pie with your spatula while you ponder your situation.",
                 "itemRef": "CharaItem03",
                 "rarity": "Character",
                 "conditional" : false
 
             },
             {
-                "resultId": "event06",
-                "label": "Eat a banana",
+                "resultId": "page07",
+                "label": "Eat a banana, yummy banana.",
                 "itemRef": "CharaItem05",
                 "removeItem": "CharaItem05",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
-                "resultId": "event06",
-                "label": "Use common Item",
-                "itemRef": "Common04",
+                "resultId": "page08",
+                "label": "Attempt to pick the lock with your lock pick.",
+                "itemRef": "Common8",
                 "rarity": "Common",
                 "conditional" : false
             }
         ]
     },
-    "event02": {
-        "id": "event02",
-        "eventText" : "Test 2. You are in event 2.",
+    "page02": {
+        "id": "page02",
+        "pageText" : "Your cries for help draw the attention of the castle jailor. He is a towering figure wearing a black executioner mask. In his hand, he holds a large axe, and at his waist you can see a ring of keys. 'Stop that hollering right now', he demands, gripping his axe tighter. 'I'm trying to enjoy my smoke break!'",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your heart out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true
             }
         ]
     },
-    "event03": {
-        "id": "event03",
-        "eventText" : "Goooriillllaa!! Test 3. You are in event 3.",
+    "page03": {
+        "id": "page03",
+        "pageText" : "Under the cot, you notice one of the stone tiles on the floor is loose. You lift it to reveal someone before you has dug a deep hole that leads down into the dark. Suddenly you hear heavy footsteps coming down the hall. Without thinking you jump down into the hole. You stand up and find yourself in a murky cavern.",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your hear out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true
             }
         ]
     },
-    "event04": {
-        "id": "event04",
-        "eventText" : "4444444444444444444",
+    "page04": {
+        "id": "page04",
+        "pageText" : "With minimal effort, you are able to pull the frame of the damaged window out. You lift yourself up through the window and emerge atop a ditch at the base of the castle's interior courtyard garden. Vibrant and unnatural flora surrounds you here. A small path leads deeper into this thick vegetation to your left. Ahead of you looms the walls and entrance of a giant hedge maze. To your right, next to an eeire pond, a tree twists and weaves upwards to what looks like an open 2nd floor window.",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your hear out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true
             }
         ]
     },
-    "event05": {
-        "id": "event05",
-        "eventText" : "Five Heroes tell you that you have arrived to event 5.",
+    "page05": {
+        "id": "page05",
+        "pageText" : "You angrily smash and splinter your cot in half. This draws the attention of the castle jailor - a towering man wearing a black executioner mask - who comes stampeding down the hallway with a large axe in hand. 'I built that cot from scratch in my WoodShop 101 class!', he yells. 'How dare you destroy my precious work', he yells quieter (some would say whimpers). 'You will pay for this!' He opens your cell and prepares to attack you.",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your hear out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true
             }
         ]
     },
-    "event06": {
-        "id": "event06",
-        "eventText" : "You definitely shouldn't be here at Event 06!!!!",
+    "page06": {
+        "id": "page06",
+        "pageText" : "Trying to make the most of your situation, you conjure a delicious applie pie with the flick of your wand. The aroma from the pie is mesmorizing. It wafts in the air and catches the attention of the castle jailor on his smoke break.",
         "options": [
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Jump like a maniac!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Dance your hear out",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Attac protec snuggle",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
                 "label": "Watch gonna doooo!",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "event02",
+                "resultId": "page02",
+                "label": "Eat all the mushrooms",
+                "rarity": "Generic",
+                "conditional" : true
+            }
+        ]
+    },
+    "page07": {
+        "id": "page07",
+        "pageText" : "You eat one of your bananas and throw the peel through the bars out into the basement hallway.",
+        "options": [
+            {
+                "resultId": "page02",
+                "label": "Jump like a maniac!",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Dance your hear out",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Attac protec snuggle",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Watch gonna doooo!",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
                 "label": "Eat all the mushrooms",
                 "rarity": "Generic",
                 "conditional" : true

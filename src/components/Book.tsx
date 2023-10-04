@@ -9,7 +9,7 @@ const pages = pageData as IPageData;
 interface IBook{addItem: (itemId: string) =>  void, removeItem: (itemId: string) => void}
 
 const Book = (props: IBook) => {
-    const [page, setPage] = useState(pages["event01"])
+    const [page, setPage] = useState(pages["page01"])
 
     const findPage = (resultId: string) : void => {
         setPage(pages[resultId]);

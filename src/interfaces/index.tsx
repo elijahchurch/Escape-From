@@ -42,7 +42,7 @@ export interface IOption {
 
 export interface IPage {
     id: string,
-    eventText: string,
+    pageText: string,
     options: IOption[]
 }
 
