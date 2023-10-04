@@ -1,9 +1,9 @@
 {
     "chara01" : {
         "id": "chara01",
-        "name": "Barb the Barbarian",
+        "name": "Barbarian",
         "portrait": "img/Barb-test.jpg",
-        "flavor": "A brave Warrior from the north who was captured while on a raid",
+        "flavor": "A brave Warrior from the North who was captured while on a raid. With great sword and shield in hand, they will storm out of this castle with all the might of the North behind them! ",
         "inventory": [
             {
                 "id": "CharaItem01",
@@ -27,7 +27,7 @@
         "id": "chara02",
         "name": "Magic Chef",
         "portrait": "img/Chef-test.jpg",
-        "flavor": "A chef from the magic academy who 'bakes' pies with his magic wand!",
+        "flavor": "A chef from the magic academy who 'bakes' pies with their magic wand! They will need to rely on their magic culinary expertise to escape the castle!",
         "inventory" : [
             {
                 "id": "CharaItem03",
@@ -43,7 +43,7 @@
         "id": "chara03",
         "name": "Gorilla",
         "portrait": "img/Gorilla-test.jpg",
-        "flavor":"A gorilla. Just that.",
+        "flavor":"A gorilla from the jungles of a far off land. Why anyone would want to capture one and bring it to this castle is a mystery. Gorilla just wants to swing on vines and eat bananas!",
         "inventory": [
             {
                 "id": "CharaItem04",

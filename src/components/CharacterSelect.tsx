@@ -12,7 +12,7 @@ const CharacterSelect = (props: ICharacterSelect) => {
     const gameCharacter = useContext(charaContext);
     return(
         <React.Fragment>
-            <h3 id="selectTitle">Select your Character</h3>
+            <h3 id="selectTitle">Select your Character Class</h3>
             <hr/>
             <div id="characterGrid">
                 
