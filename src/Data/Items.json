@@ -2,6 +2,7 @@
     "Common1": {
         "id": "Common1",
         "name": "Lantern",
+        "img": "img/lantern.jpg",
         "uses": 1,
         "flavor": "A basic lantern to use as a light source",
         "rarity": "Common"
@@ -17,6 +18,7 @@
     "Common3": {
         "id": "Common3",
         "name": "Crowbar",
+        "img": "img/crowbar.jpg",
         "uses": 1,
         "flavor": "A hefty crowbar that can be used for leverage or a makeshift weapon",
         "rarity": "Common"
@@ -24,6 +26,7 @@
     "Common4": {
         "id": "Common4",
         "name": "Bell",
+        "img": "img/bell.jpg",
         "uses": 1,
         "flavor": "A bell with a cute albeit slightly annoying ring",
         "rarity": "Common"
@@ -31,6 +34,7 @@
     "Common5": {
         "id": "Common5",
         "name": "Magnifying Glass",
+        "img": "img/magnifying.jpg",
         "uses": 1,
         "flavor": "Useful for inspecting small items",
         "rarity": "Common"
@@ -38,6 +42,7 @@
     "Common6": {
         "id": "Common6",
         "name": "Perfume Bottle",
+        "img": "img/perfume.jpg",
         "uses": 1,
         "flavor": "A bottle of fragrant perfume",
         "rarity": "Common"
@@ -45,6 +50,7 @@
     "Common7": {
         "id": "Common7",
         "name": "Fishing Rod",
+        "img": "img/fishingRod.jpg",
         "uses": 1,
         "flavor": "Just in case you need to go fishing",
         "rarity": "Common"
@@ -52,6 +58,7 @@
     "Common8": {
         "id": "Common8",
         "name": "Lock Pick",
+        "img": "img/lockPick.jpg",
         "uses": 1,
         "flavor": "A basic lock pick used to pick simple locks",
         "rarity": "Common"
@@ -59,6 +66,7 @@
     "Common9": {
         "id": "Common9",
         "name": "Bag of Marbles",
+        "img": "img/marbles.jpg",
         "uses": 1,
         "flavor": "A colorful collection of marbles",
         "rarity": "Common"
@@ -66,15 +74,9 @@
     "Common10": {
         "id": "Common10",
         "name": "Mirror",
+        "img": "img/mirror.jpg",
         "uses": 1,
         "flavor": "Useful for looking around corners or reflecting light",
         "rarity": "Common"
-    },
-    "Story01": {
-        "id": "Story01",
-        "name": "key",
-        "uses": 1,
-        "flavor": "A key to the chest",
-        "rarity": "Story"
     }
 }

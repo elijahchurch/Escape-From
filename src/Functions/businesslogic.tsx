@@ -44,6 +44,7 @@ export const finalizeInventory = (itemArray: IItem[]) : IItem[] => {
             itemArray = itemArray.concat({
                     id: "dummy01",
                     name: " ",
+                    img: "",
                     uses: 1,
                     flavor: " ",
                     rarity: " "

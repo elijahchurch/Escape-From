@@ -7,7 +7,7 @@ const ItemCard = (props: IItemCard) => {
 
     return(
         <React.Fragment>
-            <img className={props.itemSize} src="img/img-test.jpg"/>
+            <img className={props.itemSize} src={props.Item.img}/>
             <p className="itemText" >{props.Item.name}</p>
         </React.Fragment>
     )
