@@ -9,6 +9,7 @@
     "Common2": {
         "id": "Common2",
         "name": "Rope",
+        "img": "img/rope.jpg",
         "uses": 1,
         "flavor": "A sturdy length of rope",
         "rarity": "Common"

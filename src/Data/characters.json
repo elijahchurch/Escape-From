@@ -9,12 +9,13 @@
                 "id": "CharaItem01",
                 "name": "Giant Club",
                 "uses": 1,
-                "flavor": "A powerful hefty clubD",
+                "flavor": "A powerful hefty club",
                 "rarity": "Character"
             },
             {
                 "id": "CharaItem02",
                 "name": "Shield",
+                "img": "img/shield.jpg",
                 "uses": 1,
                 "flavor": "Trusty shield",
                 "rarity": "Character"
@@ -29,14 +30,8 @@
         "inventory" : [
             {
                 "id": "CharaItem03",
-                "name": "Magic Wand",
-                "uses": 1,
-                "flavor": "A magic wand that can only conjure pies",
-                "rarity": "Character"
-            },
-            {
-                "id": "CharaItem04",
                 "name": "Magic Spatula",
+                "img": "img/magicSpatula.jpg",
                 "uses": 1,
                 "flavor": "A magic spatula for fighting sentient pastries",
                 "rarity": "Character"
@@ -50,8 +45,9 @@
         "flavor":"A gorilla. Just that.",
         "inventory": [
             {
-                "id": "CharaItem05",
+                "id": "CharaItem04",
                 "name": "Pile of Bananas",
+                "img": "img/bananas.jpg",
                 "uses": 10,
                 "flavor": "A whole group of yummie bananas",
                 "rarity": "Character"

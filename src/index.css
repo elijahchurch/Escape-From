@@ -170,10 +170,16 @@ body {
   background-color: #F3DFC1;
 }
 
-/* .page::backdrop {
-  -webkit-mask-image: url("../src/Assets/img/texture.png");
-  mask-image: url("../src/Assets/img/texture.png");
-} */
+/* Page animation */
+
+@keyframes fadeInAnimation{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.fadeIn{
+  animation: fadeInAnimation 1000ms;
+}
 
 
 
@@ -193,8 +199,16 @@ body {
   height: 80px;
   text-align: center;
   border-radius: 8px;
-
+  border-width: 1px;
+  border-color: transparent;
+  transition: border-color 250ms;
 }
+
+.storyOptions:hover{
+  border-width: 2px;
+  border-color: black;
+}
+
 
 #picturePage{
   border-style: solid;

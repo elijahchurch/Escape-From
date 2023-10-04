@@ -39,8 +39,7 @@
             {
                 "resultId": "page07",
                 "label": "Eat a banana, yummy banana.",
-                "itemRef": "CharaItem05",
-                "removeItem": "CharaItem05",
+                "itemRef": "CharaItem04",
                 "rarity": "Character",
                 "conditional" : false
             },
