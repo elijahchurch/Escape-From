@@ -163,11 +163,12 @@ body {
   display: flex;
   flex-direction: row;
   border-style: solid;
-  border-color: rgb(52, 29, 3);
+  border-width: 5px;
+  border-color: #160F29;
   width: 50%;
   min-width: 500px;
   /* background-image: repeating-linear-gradient(36deg, rgb(242, 236, 121), rgb(246, 231, 101) 1px, transparent 0px, transparent 2px); */
-  background-color: #F3DFC1;
+  background-image: url("../src/Assets/img/page.jpg");
 }
 
 /* Page animation */
