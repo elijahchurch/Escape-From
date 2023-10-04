@@ -15,7 +15,7 @@ const CharacterOption = (props: ICharacterOption) => {
                 src = {props.character.portrait} 
                 alt = {props.character.name} 
                 className="characterSelect"/>
-            <p>{props.character.name}</p>
+            <h3>{props.character.name}</h3>
         </div>
     )
 }

@@ -33,7 +33,7 @@ const ItemSelect = (props: IItemSelect) => {
     } else {
         rollDisplay = 
             <React.Fragment>
-                <h3>You also received: </h3>
+                <h2>You also receive: </h2>
                 <hr/>
                 <div className="inventorySelectDiv">
                     {randomItems.map((element) => 
@@ -53,7 +53,7 @@ const ItemSelect = (props: IItemSelect) => {
 
     return(
         <React.Fragment>
-        <h3>{gameCharacter.name}'s Starting Items</h3>
+        <h2>{gameCharacter.name}'s Starting Items</h2>
         <hr/>
         <div className="inventorySelectDiv">
             {gameCharacter.inventory.map((element) => 

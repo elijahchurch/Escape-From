@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
 body {
   block-size: auto;
   text-align: center;
   background-image: linear-gradient(45deg, #0b132b, #1C2541 , #3A506B, #56CFE1, #5BC0BE);
   background-repeat: no-repeat;
   height: 100vh;
+  font-family:'Lucida Grande';
 }
 
 /* Header styling */
@@ -192,6 +196,8 @@ hr{
 
 
 #storyText{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
   margin-top: 20px;
   width: 90%;
   margin-left: auto;
@@ -207,14 +213,13 @@ hr{
   height: 80px;
   text-align: center;
   border-radius: 8px;
-  border-width: 1px;
-  border-color: transparent;
-  transition: border-color 250ms;
+  border-width: 2px;
+  border-color: black;
+  transition: border-width 250ms;
 }
 
 .storyOptions:hover{
-  border-width: 2px;
-  border-color: black;
+  border-width: 5px;
 }
 
 
@@ -260,6 +265,8 @@ hr{
 }
 
 #characterFlavor{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
   display: flex;
   border-style: solid;
   border-radius: 5px;
@@ -267,8 +274,7 @@ hr{
   margin-top: 0;
   margin-bottom: 0;
   width: 90%;
-  padding: 5px;
-  padding-top: 20px;
+  padding: 10px;
   background-color: #DDBEA8;
 }
 
