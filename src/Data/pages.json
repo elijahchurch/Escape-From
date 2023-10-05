@@ -32,6 +32,7 @@
                 "resultId": "page06",
                 "label": "Conjure a delicious pie with your spatula while you ponder your situation",
                 "itemRef": "CharaItem03",
+                "addItem": "Pie",
                 "rarity": "Character",
                 "conditional" : false
 
@@ -136,34 +137,36 @@
         "pageText" : "With minimal effort, you are able to pull the frame of the damaged window out. You lift yourself up through the window and emerge atop a ditch at the base of the castle's interior courtyard garden. Vibrant and unnatural flora surrounds you here. A small path leads deeper into this thick vegetation to your left. Ahead of you looms the walls and entrance of a giant hedge maze. To your right, next to an eeire pond, a tree twists and weaves upwards to what looks like an open 2nd floor window.",
         "options": [
             {
-                "resultId": "page02",
-                "label": "Jump like a maniac!",
+                "resultId": "page19",
+                "label": "Walk down the left path into the vegetation",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Dance your hear out",
+                "resultId": "page20",
+                "label": "Enter the hedge maze",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Attac protec snuggle",
+                "resultId": "page21",
+                "label": "Climb up the tree and go through the window",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Watch gonna doooo!",
-                "rarity": "Generic",
-                "conditional" : true
+                "resultId": "page22",
+                "label": "Go fishing in the pond",
+                "itemRef": "Common7",
+                "rarity": "Common",
+                "conditional" : false
             },
             {
-                "resultId": "page02",
-                "label": "Eat all the mushrooms",
-                "rarity": "Generic",
-                "conditional" : true
+                "resultId": "page23",
+                "label": "Investigate the flora more closely with your magnifying glass",
+                "itemRef": "Common5",
+                "rarity": "Common",
+                "conditional" : false
             }
         ]
     },
@@ -172,70 +175,75 @@
         "pageText" : "You angrily smash and splinter your cot in half. This draws the attention of the castle jailor - a towering man wearing a black executioner mask - who comes stampeding down the hallway with a large axe in hand. 'I built that cot from scratch in my WoodShop 101 class!', he yells. 'How dare you destroy my precious work', he yells quieter (some would say whimpers). 'You will pay for this!' He opens your cell and prepares to attack you.",
         "options": [
             {
-                "resultId": "page02",
-                "label": "Jump like a maniac!",
+                "resultId": "page24",
+                "label": "Dive full force into him before he starts swinging",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Dance your hear out",
+                "resultId": "page25",
+                "label": "Apologize for breaking the cot. Compliment his fine craftmanship.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Attac protec snuggle",
-                "rarity": "Generic",
+                "resultId": "page26",
+                "label": "Swing high with your sword to meet his imminent axe attack",
+                "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Watch gonna doooo!",
-                "rarity": "Generic",
+                "resultId": "page27",
+                "label": "Swing low with your sword to try to catch him off balance",
+                "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Eat all the mushrooms",
-                "rarity": "Generic",
+                "resultId": "page28",
+                "label": "Raise up your shield to deflect his imminent axe attack",
+                "rarity": "Character",
                 "conditional" : true
             }
         ]
     },
     "page06": {
         "id": "page06",
-        "pageText" : "Trying to make the most of your situation, you conjure a delicious applie pie with the flick of your wand. The aroma from the pie is mesmorizing. It wafts in the air and catches the attention of the castle jailor on his smoke break. He walks down to you. 'Can I have some of that pie? They don't feed my nothing but toad gruel down here',he says. You consider your answer, noticing the key ring attached to his waist.",
+        "pageText" : "Trying to make the most of your situation, you conjure a delicious applie pie with the flick of your wand. The aroma from the pie is mesmorizing. It wafts in the air and catches the attention of the castle jailor on his smoke break. He walks down to you. 'Can I have some of that pie? They don't feed my nothing but toad gruel down here', he says. You consider your answer, noticing the key ring attached to his waist.",
         "options": [
             {
-                "resultId": "page02",
-                "label": "Jump like a maniac!",
-                "rarity": "Generic",
+                "resultId": "page29",
+                "label": "Offer him some delicious pie out of the goodness of your heart",
+                "removeItem": "Pie",
+                "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Dance your hear out",
-                "rarity": "Generic",
+                "resultId": "page30",
+                "label": "Barter the pie for your freedom",
+                "removeItem": "Pie",
+                "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Attac protec snuggle",
-                "rarity": "Generic",
+                "resultId": "page31",
+                "label": "Throw the pie at his face",
+                "removeItem": "Pie",
+                "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Watch gonna doooo!",
-                "rarity": "Generic",
+                "resultId": "page32",
+                "label": "Scoff the whole pie down in front of him",
+                "removeItem": "Pie",
+                "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Eat all the mushrooms",
-                "rarity": "Generic",
-                "conditional" : true
+                "resultId": "page13",
+                "label": "Attempt to hit him on the head with your crowbar",
+                "itemRef": "Common3",
+                "rarity": "Common",
+                "conditional" : false
             }
         ]
     },

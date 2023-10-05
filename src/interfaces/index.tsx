@@ -2,7 +2,7 @@ export interface IItem {
     id: string,
     name: string, 
     img: string,
-    uses: number,
+    uses?: number,
     flavor: string,
     rarity: string
 }

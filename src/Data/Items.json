@@ -86,5 +86,12 @@
         "uses": 1,
         "flavor": "The jailor's key ring. Only two keys are on it. One for the cells, and one for somewhere else",
         "rarity": "Story"
+    },
+    "Pie": {
+        "id": "Pie",
+        "name": "Magic Pie",
+        "img": "img/pie.jpg",
+        "flavor": "A delicious pie conjured from magic",
+        "rarity": "Character"
     }
 }
