@@ -57,10 +57,10 @@
     },
     "Common8": {
         "id": "Common8",
-        "name": "Lock Pick",
-        "img": "img/lockPick.jpg",
+        "name": "Mysterious Coin",
+        "img": "img/mysterycoin.jpg",
         "uses": 1,
-        "flavor": "A basic lock pick used to pick simple locks",
+        "flavor": "Where did this coin come from?",
         "rarity": "Common"
     },
     "Common9": {
@@ -84,7 +84,7 @@
         "name": "Jailor's Key",
         "img": "img/placeholder.jpg",
         "uses": 1,
-        "flavor": "The jailor's key ring. Only two keys are on it. One for the cells, and one for somewhere else",
+        "flavor": "The jailor's key ring containing only a single key",
         "rarity": "Story"
     },
     "Pie": {

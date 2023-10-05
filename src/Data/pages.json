@@ -44,13 +44,6 @@
                 "addItem": "JailorKeys",
                 "rarity": "Character",
                 "conditional" : false
-            },
-            {
-                "resultId": "page08",
-                "label": "Attempt to pick the lock with your lock pick",
-                "itemRef": "Common8",
-                "rarity": "Common",
-                "conditional" : false
             }
         ]
     },
@@ -284,46 +277,9 @@
             }
         ]
     },
-    "page08": {
-        "id": "page08",
-        "pageText" : "With some patience, you are able to quietly pick the lock of the cell door and step out. You know the castle jailor is somewhere down the hallway and should be coming soon to check up on you. You need to find somewhere to hide or sneak while you have the element of surprise.",
-        "options": [
-            {
-                "resultId": "page02",
-                "label": "Jump like a maniac!",
-                "rarity": "Generic",
-                "conditional" : true
-            },
-            {
-                "resultId": "page02",
-                "label": "Dance your hear out",
-                "rarity": "Generic",
-                "conditional" : true
-            },
-            {
-                "resultId": "page02",
-                "label": "Attac protec snuggle",
-                "rarity": "Generic",
-                "conditional" : true
-            },
-            {
-                "resultId": "page02",
-                "label": "Watch gonna doooo!",
-                "rarity": "Generic",
-                "conditional" : true
-            },
-            {
-                "resultId": "page02",
-                "label": "Eat all the mushrooms",
-                "rarity": "Generic",
-                "conditional" : true
-            }
-        ]
-    },
-
     "page10": {
         "id": "page10",
-        "pageText" : "'Knock-knock', you say. The jailor pauses, then reluctantly answers, 'Who's there?'. 'Sucker Punch', you reply. As the jailor is about to respond, you sucker punch him in the face. He is knocked out cold, and you are able to retrieve his keys and exit out into the hallway. The hallway leads to stairs, but there are also two locked doors right in front of you.",
+        "pageText" : "'Knock-knock', you chirp. The jailor pauses, then reluctantly answers, 'Who's there?'. 'Sucker Punch', you reply. As the jailor is about to respond, you sucker punch him in the face. He is knocked out cold, and you are able to retrieve his keys and exit out into the hallway. The hallway leads to stairs, but there are also two locked doors right in front of you.",
         "options": [
             {
                 "resultId": "demo",
