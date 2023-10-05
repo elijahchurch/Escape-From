@@ -5,32 +5,32 @@
         "options": [
             {
                 "resultId": "page02",
-                "label": "Bang on the cell bars and yell for 'help'.",
+                "label": "Bang on the cell bars and yell for 'help'",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page03",
-                "label": "Check under the cot if you can find anything.",
+                "label": "Check under the cot if you can find anything",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page04",
-                "label": "Try to remove the frame of the damaged window.",
+                "label": "Try to remove the frame of the damaged window",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page05",
-                "label": "Smash the cot in half with your sword in a fit of rage.",
+                "label": "Smash the cot in half with your sword in a fit of rage",
                 "itemRef": "CharaItem01",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
                 "resultId": "page06",
-                "label": "Conjure a delicious pie with your spatula while you ponder your situation.",
+                "label": "Conjure a delicious pie with your spatula while you ponder your situation",
                 "itemRef": "CharaItem03",
                 "rarity": "Character",
                 "conditional" : false
@@ -38,7 +38,7 @@
             },
             {
                 "resultId": "page07",
-                "label": "Eat a banana, yummy banana.",
+                "label": "Eat a banana, yummy banana",
                 "itemRef": "CharaItem04",
                 "addItem": "JailorKeys",
                 "rarity": "Character",
@@ -46,7 +46,7 @@
             },
             {
                 "resultId": "page08",
-                "label": "Attempt to pick the lock with your lock pick.",
+                "label": "Attempt to pick the lock with your lock pick",
                 "itemRef": "Common8",
                 "rarity": "Common",
                 "conditional" : false
@@ -58,70 +58,76 @@
         "pageText" : "Your cries for help draw the attention of the castle jailor. He is a towering figure wearing a black executioner mask. In his hand, he holds a large axe, and at his waist you can see a ring of keys. 'Stop that hollering right now', he demands, gripping his axe tighter. 'I'm trying to enjoy my smoke break!'",
         "options": [
             {
-                "resultId": "page02",
-                "label": "Jump like a maniac!",
+                "resultId": "page09",
+                "label": "Tell him a knock-knock joke as an attempt to disarm him",
+                "addItem": "JailorKeys",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Dance your heart out",
+                "resultId": "page10",
+                "label": "Demand to be let out, as a mistake has clearly been made.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Attac protec snuggle",
+                "resultId": "page11",
+                "label": "Ask him for a cigarette",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Watch gonna doooo!",
-                "rarity": "Generic",
-                "conditional" : true
+                "resultId": "page12",
+                "label": "Spray perfume in his eyes",
+                "itemRef": "Common6",
+                "addItem": "JailorKeys",
+                "rarity": "Common",
+                "conditional" : false
             },
             {
-                "resultId": "page02",
-                "label": "Eat all the mushrooms",
-                "rarity": "Generic",
-                "conditional" : true
+                "resultId": "page13",
+                "label": "Attempt to hit him on the head with your crowbar",
+                "itemRef": "Common3",
+                "rarity": "Common",
+                "conditional" : false
             }
         ]
     },
     "page03": {
         "id": "page03",
-        "pageText" : "Under the cot, you notice one of the stone tiles on the floor is loose. You lift it to reveal someone before you has dug a deep hole that leads down into the dark. Suddenly you hear heavy footsteps coming down the hall. Without thinking you jump down into the hole. You stand up and find yourself in a murky cavern. A rocky passageway is dimly lit ahead.",
+        "pageText" : "Under the cot, you notice one of the stone tiles on the floor is loose. You lift it to reveal someone before you has dug a deep hole that leads into the dark. Suddenly you hear heavy footsteps coming down the hall. Without thinking you jump down into the hole. You stand up and find yourself in a murky cavern. A rocky passageway is dimly lit ahead, that forks two ways. You hear a clanging noise from one way and the sound of rushing water from the other way.",
         "options": [
             {
-                "resultId": "page02",
-                "label": "Jump like a maniac!",
+                "resultId": "page14",
+                "label": "Head towards the clanging noise",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Dance your hear out",
+                "resultId": "page15",
+                "label": "Head towards the water source",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Attac protec snuggle",
+                "resultId": "page16",
+                "label": "Blindly check your immediate surroundings in the dark",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Watch gonna doooo!",
-                "rarity": "Generic",
-                "conditional" : true
+                "resultId": "page17",
+                "label": "Light your lantern for better visibility",
+                "itemRef": "Common1",
+                "rarity": "Common",
+                "conditional" : false
             },
             {
-                "resultId": "page02",
-                "label": "Eat all the mushrooms",
-                "rarity": "Generic",
-                "conditional" : true
+                "resultId": "page18",
+                "label": "Ring your bell vigorously as an echolocation attempt",
+                "itemRef": "Common4",
+                "rarity": "Common",
+                "conditional" : false
             }
         ]
     },
@@ -199,7 +205,7 @@
     },
     "page06": {
         "id": "page06",
-        "pageText" : "Trying to make the most of your situation, you conjure a delicious applie pie with the flick of your wand. The aroma from the pie is mesmorizing. It wafts in the air and catches the attention of the castle jailor on his smoke break.",
+        "pageText" : "Trying to make the most of your situation, you conjure a delicious applie pie with the flick of your wand. The aroma from the pie is mesmorizing. It wafts in the air and catches the attention of the castle jailor on his smoke break. He walks down to you. 'Can I have some of that pie? They don't feed my nothing but toad gruel down here',he says. You consider your answer, noticing the key ring attached to his waist.",
         "options": [
             {
                 "resultId": "page02",
@@ -271,7 +277,7 @@
     },
     "page08": {
         "id": "page08",
-        "pageText" : "",
+        "pageText" : "With some patience, you are able to quietly pick the lock of the cell door and step out. You know the castle jailor is somewhere down the hallway and should be coming soon to check up on you. You need to find somewhere to hide or sneak while you have the element of surprise.",
         "options": [
             {
                 "resultId": "page02",
