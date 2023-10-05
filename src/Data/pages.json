@@ -53,7 +53,7 @@
         "options": [
             {
                 "resultId": "page09",
-                "label": "Demand to be let out, as a mistake has clearly been made",
+                "label": "Demand to be let out",
                 "addItem": "JailorKey",
                 "rarity": "Generic",
                 "conditional" : true
