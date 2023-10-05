@@ -326,12 +326,6 @@
                 "conditional" : true
             },
             {
-                "resultId": "demo",
-                "label": "Tell him who you are",
-                "rarity": "Generic",
-                "conditional" : true
-            },
-            {
                 "resultId": "demo01",
                 "label": "Tell him you are 'nobody'",
                 "rarity": "Generic",
@@ -342,6 +336,28 @@
                 "label": "Lie and say you are the jailor",
                 "rarity": "Generic",
                 "conditional" : true
+            },
+            {
+                "resultId": "demo",
+                "label": "Being the brave warrior you are, challenge the ghoul to combat",
+                "itemRef": "CharaItem01",
+                "rarity": "Character",
+                "conditional" : false
+            },
+            {
+                "resultId": "demo",
+                "label": "Tell him you are a Magical Chef",
+                "itemRef": "CharaItem03",
+                "rarity": "Character",
+                "conditional" : false
+
+            },
+            {
+                "resultId": "page07",
+                "label": "Beat your chest in Gorilla fashion",
+                "itemRef": "CharaItem04",
+                "rarity": "Character",
+                "conditional" : false
             },
             {
                 "resultId": "demo",
