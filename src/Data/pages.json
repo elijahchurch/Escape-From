@@ -56,18 +56,19 @@
     },
     "page02": {
         "id": "page02",
-        "pageText" : "Your cries for help draw the attention of the castle jailor. He is a towering figure wearing a black executioner mask. In his hand, he holds a large axe, and at his waist you can see a ring of keys. 'Stop that hollering right now', he demands, gripping his axe tighter. 'I'm trying to enjoy my smoke break!'",
+        "pageText" : "Your cries for help draw the attention of the castle jailor. He is a towering figure wearing a black executioner mask. In his hand, he holds a large axe, and at his waist you can see the jailor's key ring. 'Stop that hollering right now', he demands, gripping his axe tighter. 'I'm trying to enjoy my smoke break!'",
         "options": [
             {
                 "resultId": "page09",
-                "label": "Tell him a knock-knock joke as an attempt to disarm him",
-                "addItem": "JailorKeys",
+                "label": "Demand to be let out, as a mistake has clearly been made",
+                "addItem": "JailorKey",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page10",
-                "label": "Demand to be let out, as a mistake has clearly been made.",
+                "label": "Tell him a knock-knock joke as an attempt to disarm him",
+                "addItem": "JailorKey",
                 "rarity": "Generic",
                 "conditional" : true
             },
@@ -81,7 +82,7 @@
                 "resultId": "page12",
                 "label": "Spray perfume in his eyes",
                 "itemRef": "Common6",
-                "addItem": "JailorKeys",
+                "addItem": "JailorKey",
                 "rarity": "Common",
                 "conditional" : false
             },
@@ -318,6 +319,85 @@
                 "conditional" : true
             }
         ]
+    },
+
+    "page10": {
+        "id": "page10",
+        "pageText" : "'Knock-knock', you say. The jailor pauses, then reluctantly answers, 'Who's there?'. 'Sucker Punch', you reply. As the jailor is about to respond, you sucker punch him in the face. He is knocked out cold, and you are able to retrieve his keys and exit out into the hallway. The hallway leads to stairs, but there are also two locked doors right in front of you.",
+        "options": [
+            {
+                "resultId": "demo",
+                "label": "Go up the stairs",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "demo",
+                "label": "Check if anyone else is being held in the other cells next to yours",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "demo01",
+                "label": "Attempt to open the door on the right that is decorated with an ornate skull for a door knob",
+                "removeItem": "JailorKey",
+                "rarity": "Story",
+                "conditional" : true
+            },
+            {
+                "resultId": "demo",
+                "label": "Attempt to open the door on the left that is marked 'Suupplize'",
+                "rarity": "Story",
+                "conditional" : true
+            },
+            {
+                "resultId": "demo",
+                "label": "Tie the jailor up with some of your rope in case he wakes up",
+                "itemRef": "Common2",
+                "rarity": "Common",
+                "conditional" : false
+            }
+        ]
+    },
+    "demo01": {
+        "id": "demo01",
+        "pageText" : "You insert the jailor's key into the skull's mouth. You feel the key jam as you attempt to turn it. The skull's eyes suddenly light up a bright red, and it's jaws clamp down on the key, breaking it. 'Who dares disturb my eternal slumber', a ghoulish voice growls from inside.",
+        "options": [
+            {
+                "resultId": "demo",
+                "label": "This is too spooky. Run away!",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "demo",
+                "label": "Tell him who you are",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "demo01",
+                "label": "Tell him you are 'nobody'",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "demo",
+                "label": "Lie and say you are the jailor",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "demo",
+                "label": "Are ghouls afraid of mirrors? Hold yours up just in case",
+                "itemRef": "Common10",
+                "rarity": "Common",
+                "conditional" : false
+            }
+        ]
     }
+
+
+
 
 }
