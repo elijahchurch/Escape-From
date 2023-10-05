@@ -8,7 +8,7 @@ const LeftPage = (props: ILeftPage) => {
     const { page, findPage, addItem, removeItem} = props;
 
     return(
-        <div className="page fadeIn" id="left">
+        <div className="page fadeIn" id="left" key={page.id}>
             <div className="column fill">
                 <div id="storyText">
                     <p>{page.pageText}</p>
