@@ -78,5 +78,13 @@
         "uses": 1,
         "flavor": "Useful for looking around corners or reflecting light",
         "rarity": "Common"
+    },
+    "JailorKeys": {
+        "id": "JailorKeys",
+        "name": "Jailor's Keys",
+        "img": "img/placeholder.jpg",
+        "uses": 1,
+        "flavor": "The jailor's key ring. Only two keys are on it. One for the cells, and one for somewhere else",
+        "rarity": "Story"
     }
 }

@@ -23,14 +23,14 @@
             },
             {
                 "resultId": "page05",
-                "label": "Smash the cot in half with your club in a fit of rage.",
+                "label": "Smash the cot in half with your sword in a fit of rage.",
                 "itemRef": "CharaItem01",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
                 "resultId": "page06",
-                "label": "Bake a delicious pie with your spatula while you ponder your situation.",
+                "label": "Conjure a delicious pie with your spatula while you ponder your situation.",
                 "itemRef": "CharaItem03",
                 "rarity": "Character",
                 "conditional" : false
@@ -40,6 +40,7 @@
                 "resultId": "page07",
                 "label": "Eat a banana, yummy banana.",
                 "itemRef": "CharaItem04",
+                "addItem": "JailorKeys",
                 "rarity": "Character",
                 "conditional" : false
             },
@@ -90,7 +91,7 @@
     },
     "page03": {
         "id": "page03",
-        "pageText" : "Under the cot, you notice one of the stone tiles on the floor is loose. You lift it to reveal someone before you has dug a deep hole that leads down into the dark. Suddenly you hear heavy footsteps coming down the hall. Without thinking you jump down into the hole. You stand up and find yourself in a murky cavern.",
+        "pageText" : "Under the cot, you notice one of the stone tiles on the floor is loose. You lift it to reveal someone before you has dug a deep hole that leads down into the dark. Suddenly you hear heavy footsteps coming down the hall. Without thinking you jump down into the hole. You stand up and find yourself in a murky cavern. A rocky passageway is dimly lit ahead.",
         "options": [
             {
                 "resultId": "page02",
@@ -234,7 +235,43 @@
     },
     "page07": {
         "id": "page07",
-        "pageText" : "You eat one of your bananas and throw the peel through the bars out into the basement hallway.",
+        "pageText" : "You eat one of your bananas and throw the peel through the bars out into the hallway. While enjoying your fruity snack, the castle jailor comes walking down the hall. He is a large man wearing an executioner mask, and the limited vision from the mask may be the reason he doesn't see the peel and obnoxiously slips on it. As he hits the floor, his key ring bounces off the ground and into your cell. He is knocked out cold. You unlock the door with the key and step out. ",
+        "options": [
+            {
+                "resultId": "page02",
+                "label": "Jump like a maniac!",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Dance your hear out",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Attac protec snuggle",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Watch gonna doooo!",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Eat all the mushrooms",
+                "rarity": "Generic",
+                "conditional" : true
+            }
+        ]
+    },
+    "page08": {
+        "id": "page08",
+        "pageText" : "",
         "options": [
             {
                 "resultId": "page02",
