@@ -15,8 +15,6 @@ A Choose-Your-Own Adventure application made in React.
 * Git Bash
 * Visual Code Studio
 * Node Package Manager
-* Webpack
-* ESLint
 * Jest
 * Babel
 
