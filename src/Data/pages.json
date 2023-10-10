@@ -5,32 +5,32 @@
         "options": [
             {
                 "resultId": "page02",
-                "label": "Bang on the cell bars and yell for 'help'",
+                "label": "Bang on the cell bars and yell for 'help'.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page03",
-                "label": "Check under the cot if you can find anything",
+                "label": "Check under the cot if you can find anything.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page04",
-                "label": "Try to remove the frame of the damaged window",
+                "label": "Try to remove the frame of the damaged window.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page05",
-                "label": "Smash the cot in half with your sword in a fit of rage",
+                "label": "Smash the cot with your sword in a fit of rage.",
                 "itemRef": "CharaItem01",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
                 "resultId": "page06",
-                "label": "Conjure a delicious pie with your spatula while you ponder your situation",
+                "label": "Conjure a delicious pie with your spatula while you ponder your situation.",
                 "itemRef": "CharaItem03",
                 "addItem": "Pie",
                 "rarity": "Character",
@@ -41,8 +41,15 @@
                 "resultId": "page07",
                 "label": "Eat a banana, yummy banana",
                 "itemRef": "CharaItem04",
-                "addItem": "JailorKeys",
+                "addItem": "JailorKey",
                 "rarity": "Character",
+                "conditional" : false
+            },
+            {
+                "resultId": "page08",
+                "label": "Stay cool, stay calm, stay fresh. Put on those sunglasses.",
+                "itemRef": "Common8",
+                "rarity": "Common",
                 "conditional" : false
             }
         ]
@@ -243,7 +250,43 @@
     },
     "page07": {
         "id": "page07",
-        "pageText" : "You eat one of your bananas and throw the peel through the bars out into the hallway. While enjoying your fruity snack, the castle jailor comes walking down the hall. He is a large man wearing an executioner mask, and the limited vision from the mask may be the reason he doesn't see the peel and obnoxiously slips on it. As he hits the floor, his key ring bounces off the ground and into your cell. He is knocked out cold. You unlock the door with the key and step out. ",
+        "pageText" : "You eat one of your bananas and throw the peel out through the bars. The castle jailor comes walking down the hall. He is a large man wearing an executioner mask, and the limited vision from the mask may be the reason he doesn't see the peel and obnoxiously slips on it. As he hits the floor, his key ring bounces off the ground and into your cell. He is knocked out cold. You unlock the door with the key and step out into the hallway. The hallway leads to stairs, but there are also two locked doors right in front of you.",
+        "options": [
+            {
+                "resultId": "page02",
+                "label": "Jump like a maniac!",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Dance your hear out",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Attac protec snuggle",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Watch gonna doooo!",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page02",
+                "label": "Eat all the mushrooms",
+                "rarity": "Generic",
+                "conditional" : true
+            }
+        ]
+    },
+    "page08": {
+        "id": "page08",
+        "pageText" : "You stylishly put your sunglasses on. A few minutes later, the castle jailor comes walking down the hall. He is a towering figure wearing a black executioner mask. Upon seeing you, he becomes confused. 'What's a cool person like you doing in this cell?', he asks.",
         "options": [
             {
                 "resultId": "page02",
