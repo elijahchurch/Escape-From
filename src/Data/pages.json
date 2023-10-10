@@ -39,7 +39,7 @@
             },
             {
                 "resultId": "page07",
-                "label": "Eat a banana, yummy banana",
+                "label": "Eat a banana, yummy banana.",
                 "itemRef": "CharaItem04",
                 "addItem": "JailorKey",
                 "rarity": "Character",
@@ -60,27 +60,27 @@
         "options": [
             {
                 "resultId": "page09",
-                "label": "Demand to be let out",
+                "label": "Demand to be let out.",
                 "addItem": "JailorKey",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page10",
-                "label": "Tell him a knock-knock joke as an attempt to disarm him",
+                "label": "Tell him a knock-knock joke as an attempt to disarm him.",
                 "addItem": "JailorKey",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page11",
-                "label": "Ask him for a cigarette",
+                "label": "Ask him for a cigarette.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page12",
-                "label": "Spray perfume in his eyes",
+                "label": "Spray perfume in his eyes.",
                 "itemRef": "Common6",
                 "addItem": "JailorKey",
                 "rarity": "Common",
@@ -88,7 +88,7 @@
             },
             {
                 "resultId": "page13",
-                "label": "Attempt to hit him on the head with your crowbar",
+                "label": "Attempt to hit him on the head with your crowbar.",
                 "itemRef": "Common3",
                 "rarity": "Common",
                 "conditional" : false
@@ -101,32 +101,32 @@
         "options": [
             {
                 "resultId": "page14",
-                "label": "Head towards the clanging noise",
+                "label": "Head towards the clanging noise.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page15",
-                "label": "Head towards the water source",
+                "label": "Head towards the water source.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page16",
-                "label": "Blindly check your immediate surroundings in the dark",
+                "label": "Blindly check your immediate surroundings in the dark.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page17",
-                "label": "Light your lantern for better visibility",
+                "label": "Light your lantern for better visibility.",
                 "itemRef": "Common1",
                 "rarity": "Common",
                 "conditional" : false
             },
             {
                 "resultId": "page18",
-                "label": "Ring your bell vigorously as an echolocation attempt",
+                "label": "Ring your bell vigorously as an attempt at echolocation.",
                 "itemRef": "Common4",
                 "rarity": "Common",
                 "conditional" : false
@@ -139,7 +139,7 @@
         "options": [
             {
                 "resultId": "page19",
-                "label": "Walk down the left path into the vegetation",
+                "label": "Walk down the left path into the vegetation.",
                 "rarity": "Generic",
                 "conditional" : true
             },
@@ -151,20 +151,20 @@
             },
             {
                 "resultId": "page21",
-                "label": "Climb up the tree and go through the window",
+                "label": "Climb up the tree and go through the window.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
                 "resultId": "page22",
-                "label": "Go fishing in the pond",
+                "label": "Go fishing in the pond.",
                 "itemRef": "Common7",
                 "rarity": "Common",
                 "conditional" : false
             },
             {
                 "resultId": "page23",
-                "label": "Investigate the flora more closely with your magnifying glass",
+                "label": "Investigate the flora more closely with your magnifying glass.",
                 "itemRef": "Common5",
                 "rarity": "Common",
                 "conditional" : false
@@ -177,7 +177,7 @@
         "options": [
             {
                 "resultId": "page24",
-                "label": "Dive full force into him before he starts swinging",
+                "label": "Dive full force into him before he starts swinging.",
                 "rarity": "Generic",
                 "conditional" : true
             },
@@ -189,19 +189,19 @@
             },
             {
                 "resultId": "page26",
-                "label": "Swing high with your sword to meet his imminent axe attack",
+                "label": "Swing high with your sword to meet his imminent axe attack.",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
                 "resultId": "page27",
-                "label": "Swing low with your sword to try to catch him off balance",
+                "label": "Swing low with your sword to try to catch him off balance.",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
                 "resultId": "page28",
-                "label": "Raise up your shield to deflect his imminent axe attack",
+                "label": "Raise up your shield to deflect his imminent axe attack.",
                 "rarity": "Character",
                 "conditional" : true
             }
@@ -213,35 +213,35 @@
         "options": [
             {
                 "resultId": "page29",
-                "label": "Offer him some delicious pie out of the goodness of your heart",
+                "label": "Offer him some delicious pie out of the goodness of your heart.",
                 "removeItem": "Pie",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
                 "resultId": "page30",
-                "label": "Barter the pie for your freedom",
+                "label": "Barter the pie for your freedom.",
                 "removeItem": "Pie",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
                 "resultId": "page31",
-                "label": "Throw the pie at his face",
+                "label": "Throw the pie at his face.",
                 "removeItem": "Pie",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
                 "resultId": "page32",
-                "label": "Scoff the whole pie down in front of him",
+                "label": "Scoff the whole pie down in front of him.",
                 "removeItem": "Pie",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
                 "resultId": "page13",
-                "label": "Attempt to hit him on the head with your crowbar",
+                "label": "Attempt to hit him on the head with your crowbar.",
                 "itemRef": "Common3",
                 "rarity": "Common",
                 "conditional" : false
@@ -253,40 +253,80 @@
         "pageText" : "You eat one of your bananas and throw the peel out through the bars. The castle jailor comes walking down the hall. He is a large man wearing an executioner mask, and the limited vision from the mask may be the reason he doesn't see the peel and obnoxiously slips on it. As he hits the floor, his key ring bounces off the ground and into your cell. He is knocked out cold. You unlock the door with the key and step out into the hallway. The hallway leads to stairs, but there are also two locked doors right in front of you.",
         "options": [
             {
-                "resultId": "page02",
-                "label": "Jump like a maniac!",
+                "resultId": "page33",
+                "label": "Go up the stairs.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Dance your hear out",
+                "resultId": "page34",
+                "label": "Check if anyone else is being held in the other cells next to yours.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Attac protec snuggle",
-                "rarity": "Generic",
+                "resultId": "page35",
+                "label": "Attempt to open the door on the right that is decorated with an ornate skull for a door knob.",
+                "removeItem": "JailorKey",
+                "rarity": "Story",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Watch gonna doooo!",
-                "rarity": "Generic",
+                "resultId": "page36",
+                "label": "Attempt to open the door on the left that is marked 'Suupplize'.",
+                "rarity": "Story",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Eat all the mushrooms",
-                "rarity": "Generic",
-                "conditional" : true
+                "resultId": "page37",
+                "label": "Tie the jailor up with some of your rope in case he wakes up.",
+                "itemRef": "Common2",
+                "rarity": "Common",
+                "conditional" : false
             }
         ]
     },
     "page08": {
         "id": "page08",
-        "pageText" : "You stylishly put your sunglasses on. A few minutes later, the castle jailor comes walking down the hall. He is a towering figure wearing a black executioner mask. Upon seeing you, he becomes confused. 'What's a cool person like you doing in this cell?', he asks.",
+        "pageText" : "You stylishly put your sunglasses on. A few minutes later, the castle jailor comes walking down the hall. He is a towering figure wearing a black executioner mask. You notice a key ring around his waist. Upon seeing you, he becomes confused. 'What's a cool person like you doing in this cell?', he asks.",
+        "options": [
+            {
+                "resultId": "page38",
+                "label": "Tell him there has been an obvious mistake, and you should actually be in the castle suite.",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page39",
+                "label": "Let him try on your cool sunglasses.",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page40",
+                "label": "Sit there stoically in silence.",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "page41",
+                "label": "Show him your coolest marble from your collection.",
+                "itemRef": "Common9",
+                "rarity": "Common",
+                "conditional" : false
+            },
+            {
+                "resultId": "page42",
+                "label": "Check out your reflection in your mirror.",
+                "itemRef": "Common10",
+                "rarity": "Common",
+                "conditional" : false
+            }
+        ]
+    },
+    "page09": {
+        "id": "page09",
+        "pageText" : "",
         "options": [
             {
                 "resultId": "page02",
@@ -325,32 +365,32 @@
         "pageText" : "'Knock-knock', you chirp. The jailor pauses, then reluctantly answers, 'Who's there?'. 'Sucker Punch', you reply. As the jailor is about to respond, you sucker punch him in the face. He is knocked out cold, and you are able to retrieve his keys and exit out into the hallway. The hallway leads to stairs, but there are also two locked doors right in front of you.",
         "options": [
             {
-                "resultId": "demo",
+                "resultId": "page33",
                 "label": "Go up the stairs",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "demo",
+                "resultId": "page34",
                 "label": "Check if anyone else is being held in the other cells next to yours",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "demo01",
+                "resultId": "page35",
                 "label": "Attempt to open the door on the right that is decorated with an ornate skull for a door knob",
                 "removeItem": "JailorKey",
                 "rarity": "Story",
                 "conditional" : true
             },
             {
-                "resultId": "demo",
+                "resultId": "page36",
                 "label": "Attempt to open the door on the left that is marked 'Suupplize'",
                 "rarity": "Story",
                 "conditional" : true
             },
             {
-                "resultId": "demo",
+                "resultId": "page37",
                 "label": "Tie the jailor up with some of your rope in case he wakes up",
                 "itemRef": "Common2",
                 "rarity": "Common",
@@ -358,8 +398,8 @@
             }
         ]
     },
-    "demo01": {
-        "id": "demo01",
+    "page35": {
+        "id": "page35",
         "pageText" : "You insert the jailor's key into the skull's mouth. You feel the key jam as you attempt to turn it. The skull's eyes suddenly light up a bright red, and it's jaws clamp down on the key, breaking it. 'Who dares disturb my eternal slumber', a ghoulish voice growls from inside.",
         "options": [
             {
