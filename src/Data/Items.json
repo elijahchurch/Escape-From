@@ -57,10 +57,10 @@
     },
     "Common8": {
         "id": "Common8",
-        "name": "Mysterious Coin",
-        "img": "img/mysterycoin.jpg",
+        "name": "Sunglasses",
+        "img": "img/sunglasses.jpg",
         "uses": 1,
-        "flavor": "Where did this coin come from?",
+        "flavor": "Shade from the sun and emanation of coolness",
         "rarity": "Common"
     },
     "Common9": {
