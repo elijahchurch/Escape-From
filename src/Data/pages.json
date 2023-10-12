@@ -61,7 +61,6 @@
             {
                 "resultId": "page09",
                 "label": "Demand to be let out.",
-                "addItem": "JailorKey",
                 "rarity": "Generic",
                 "conditional" : true
             },
@@ -386,7 +385,7 @@
             },
             {
                 "resultId": "page36",
-                "label": "Attempt to open the door on the left that is marked 'Suupplize'",
+                "label": "Attempt to open the door on the left that is marked 'Supplize'",
                 "rarity": "Story",
                 "conditional" : true
             },
@@ -435,6 +434,80 @@
             }
         ]
     },
+    "page12": {
+        "id": "page12",
+        "pageText" : "You spray perfume in the jailor's eyes, causing him to squeal in agony. While he is distracted, you grab the key at his waist though the bars. He is still wiping his closed eyes with both of his hands as you open the door and slam it into him, knocking him out. Stepping out, you see the hallway here leads to stairs but there are also two locked doors in front of you.",
+        "options": [
+                {
+                    "resultId": "page33",
+                    "label": "Go up the stairs",
+                    "rarity": "Generic",
+                    "conditional" : true
+                },
+                {
+                    "resultId": "page34",
+                    "label": "Check if anyone else is being held in the other cells next to yours",
+                    "rarity": "Generic",
+                    "conditional" : true
+                },
+                {
+                    "resultId": "page35",
+                    "label": "Attempt to open the door on the right that is decorated with an ornate skull for a door knob",
+                    "removeItem": "JailorKey",
+                    "rarity": "Story",
+                    "conditional" : true
+                },
+                {
+                    "resultId": "page36",
+                    "label": "Attempt to open the door on the left that is marked 'Supplize'",
+                    "rarity": "Story",
+                    "conditional" : true
+                },
+                {
+                    "resultId": "page37",
+                    "label": "Tie the jailor up with some of your rope in case he wakes up",
+                    "itemRef": "Common2",
+                    "rarity": "Common",
+                    "conditional" : false
+                }
+        ]
+    },
+    "page13": {
+        "id": "page13",
+        "pageText" : "You attempt to hit the jailor with the crowbar, but you are too slow and clumsy, hitting the cell bars instead. 'A wise guy, huh!', the jailor growls. 'If you think you are so tough, let's see how you fair in the castle's gladiator arena!'. He puts a bag over your head and takes you somewhere else deeper in the castle. When the bag is eventually lifted, you find yourself in front of a shriveled old lady, the arena clerk, who asks about your previous occupation. 'For registration purposes,' she clicks with her tongue.",
+        "options": [
+            {
+                "resultId": "thankyou",
+                "label": "",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "thankyou",
+                "label": "",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "thankyou",
+                "label": "",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "thankyou",
+                "label": "",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "thankyou",
+                "label": "",
+                "rarity": "Generic",
+                "conditional" : true
+            }
+        ]
+    },
     "page35": {
         "id": "page35",
         "pageText" : "You insert the jailor's key into the skull's mouth. You feel the key jam as you attempt to turn it. The skull's eyes suddenly light up a bright red, and it's jaws clamp down on the key, breaking it. 'Who dares disturb my eternal slumber', a ghoulish voice growls from inside.",
@@ -466,7 +539,7 @@
             },
             {
                 "resultId": "demo",
-                "label": "Tell him you are a Magical Chef",
+                "label": "Tell him you are a Magical Chef here to bake him a pie.",
                 "itemRef": "CharaItem03",
                 "rarity": "Character",
                 "conditional" : false
@@ -474,14 +547,14 @@
             },
             {
                 "resultId": "page07",
-                "label": "Beat your chest in Gorilla fashion",
+                "label": "Beat your chest in Gorilla fashion.",
                 "itemRef": "CharaItem04",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
                 "resultId": "demo",
-                "label": "Are ghouls afraid of mirrors? Hold yours up just in case",
+                "label": "Are ghouls afraid of mirrors? Hold yours up just in case.",
                 "itemRef": "Common10",
                 "rarity": "Common",
                 "conditional" : false
