@@ -93,5 +93,12 @@
         "img": "img/pie.jpg",
         "flavor": "A delicious pie conjured from magic",
         "rarity": "Character"
+    },
+    "Cigarette": {
+        "id": "Cigarette",
+        "name": "Cigarette",
+        "img": "img/placeholder.jpg",
+        "flavor": "Smoking is bad for you.",
+        "rarity": "Story"
     }
 }

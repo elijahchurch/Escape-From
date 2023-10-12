@@ -75,6 +75,7 @@
             {
                 "resultId": "page11",
                 "label": "Ask him for a cigarette.",
+                "addItem": "Cigarette",
                 "rarity": "Generic",
                 "conditional" : true
             },
@@ -195,13 +196,13 @@
             },
             {
                 "resultId": "page27",
-                "label": "Swing low with your sword to try to catch him off balance.",
+                "label": "Raise up your shield to deflect his imminent axe attack.",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
                 "resultId": "page28",
-                "label": "Raise up your shield to deflect his imminent axe attack.",
+                "label": "Swing low with your sword to try to catch him off balance.",
                 "rarity": "Character",
                 "conditional" : true
             }
@@ -273,7 +274,7 @@
             },
             {
                 "resultId": "page36",
-                "label": "Attempt to open the door on the left that is marked 'Suupplize'.",
+                "label": "Attempt to open the door on the left that is marked 'Supplize'.",
                 "rarity": "Story",
                 "conditional" : true
             },
@@ -326,35 +327,35 @@
     },
     "page09": {
         "id": "page09",
-        "pageText" : "",
+        "pageText" : "You enter into a heated debate with the jailor. He stands firm and challenges any case you make for your freedom. Just as arguing with him gets to the point of futility, you try one last ploy and demand to speak to his manager. This causes the jailor to lurch in fear. 'Do you know Mr. Doom-Skin-Flayer?', he pitifully whispers.",
         "options": [
             {
-                "resultId": "page02",
-                "label": "Jump like a maniac!",
+                "resultId": "",
+                "label": "",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Dance your hear out",
+                "resultId": "",
+                "label": "",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Attac protec snuggle",
+                "resultId": "",
+                "label": "",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Watch gonna doooo!",
+                "resultId": "",
+                "label": "",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page02",
-                "label": "Eat all the mushrooms",
+                "resultId": "",
+                "label": "",
                 "rarity": "Generic",
                 "conditional" : true
             }
@@ -395,6 +396,42 @@
                 "itemRef": "Common2",
                 "rarity": "Common",
                 "conditional" : false
+            }
+        ]
+    },
+    "page11": {
+        "id": "page11",
+        "pageText" : "'Smoking is bad for you!', he declares. 'You're a bold one, aren't you? Bold and bad. Hmm... You're alright. Tell you want I'll let you smoke, but not in here. Management wouldn't be happy if I let you smoke indoors.' He hands you a cigarette and leads you to the break room, which lies up the stairs and to the left of the guard room. It's a small outdoor enclosure overlooking a steep, unscalable cliffside. This is a dead end, and your smoking 'buddy', the jailor, is keenly watching your next move.",
+        "options": [
+            {
+                "resultId": "thankyou",
+                "label": "hytf",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "",
+                "label": "",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "",
+                "label": "",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "",
+                "label": "",
+                "rarity": "Generic",
+                "conditional" : true
+            },
+            {
+                "resultId": "",
+                "label": "",
+                "rarity": "Generic",
+                "conditional" : true
             }
         ]
     },
@@ -447,6 +484,18 @@
                 "label": "Are ghouls afraid of mirrors? Hold yours up just in case",
                 "itemRef": "Common10",
                 "rarity": "Common",
+                "conditional" : false
+            }
+        ]
+    },
+    "thankyou": {
+        "id": "thankyou",
+        "pageText" : "Thank you for playing! That's it for this brief demo. At this point, you can click 'Restart' at the top to try different paths (there are many!) if you want. Tune in later for updates to this project.",
+        "options": [
+            {
+                "resultId": "",
+                "label": "The end!",
+                "rarity": "Generic",
                 "conditional" : false
             }
         ]
