@@ -474,7 +474,7 @@
     },
     "page13": {
         "id": "page13",
-        "pageText" : "You attempt to hit the jailor with the crowbar, but you are too slow and clumsy, hitting the cell bars instead. 'A wise guy, huh!', the jailor growls. 'If you think you are so tough, let's see how you fair in the castle's gladiator arena!'. He puts a bag over your head and takes you somewhere else deeper in the castle. When the bag is eventually lifted, you find yourself in front of a shriveled old lady, the arena clerk. 'Previous occupation?', she click with her tongue. 'For registration purposes.",
+        "pageText" : "You attempt to hit the jailor with the crowbar, but you are too slow and clumsy, hitting the cell bars instead. 'A wise guy, huh!', the jailor growls. 'If you think you are so tough, let's see how you fair in the castle's gladiator arena!'. He puts a bag over your head and takes you somewhere else deeper in the castle. When the bag is eventually lifted, you find yourself in front of a shriveled old lady, the arena clerk. 'Previous occupation?', she click with her tongue. 'For registration purposes.'",
         "options": [
             {
                 "resultId": "thankyou",
