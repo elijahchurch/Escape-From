@@ -1,0 +1,38 @@
+"page": {
+    "id": ,
+    "pageText" : 
+    "options": [
+        {
+            "resultId": "page",
+            "label": "",
+            "rarity": "",
+            "conditional" : true
+        },
+        {
+            "resultId": "page",
+            "label": "",
+            "rarity": "",
+            "conditional" : true
+        },
+        {
+            "resultId": "page",
+            "label": "",
+            "rarity": "",
+            "conditional" : true
+        },
+        {
+            "resultId": "page",
+            "label": "",
+            "itemRef": "",
+            "rarity": "",
+            "conditional" : false
+        },
+        {
+            "resultId": "page",
+            "label": "",
+            "itemRef": "",
+            "rarity": "",
+            "conditional" : false
+        }
+    ]
+},
