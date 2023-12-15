@@ -6,7 +6,7 @@
         "flavor": "A brave Warrior from the North who was captured while on a raid. With great sword and shield in hand, they will storm out of this castle with all the might of the North behind them! ",
         "inventory": [
             {
-                "id": "CharaItem01",
+                "id": "CharaItem1",
                 "name": "Great Sword",
                 "img": "img/sword.jpg",
                 "uses": 1,
@@ -14,7 +14,7 @@
                 "rarity": "Character"
             },
             {
-                "id": "CharaItem02",
+                "id": "CharaItem2",
                 "name": "Shield",
                 "img": "img/shield.jpg",
                 "uses": 1,
@@ -30,7 +30,7 @@
         "flavor": "A chef from the magic academy who 'bakes' pies with their magic wand! They will need to rely on their magic culinary expertise to escape the castle!",
         "inventory" : [
             {
-                "id": "CharaItem03",
+                "id": "CharaItem3",
                 "name": "Magic Spatula",
                 "img": "img/magicSpatula.jpg",
                 "uses": 1,
@@ -46,7 +46,7 @@
         "flavor":"A gorilla from the jungles of a far off land. Why anyone would want to capture one and bring it to this castle is a mystery. Gorilla just wants to swing on vines and eat bananas!",
         "inventory": [
             {
-                "id": "CharaItem04",
+                "id": "CharaItem4",
                 "name": "Pile of Bananas",
                 "img": "img/bananas.jpg",
                 "uses": 10,

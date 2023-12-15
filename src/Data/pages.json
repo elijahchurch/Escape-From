@@ -24,14 +24,14 @@
             {
                 "resultId": "pageD",
                 "label": "Smash the cot with your sword in a fit of rage.",
-                "itemRef": "CharaItem01",
+                "itemRef": "CharaItem1",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
                 "resultId": "pageE",
                 "label": "Conjure a delicious pie with your spatula while you ponder your situation.",
-                "itemRef": "CharaItem03",
+                "itemRef": "CharaItem3",
                 "addItem": "Pie",
                 "rarity": "Character",
                 "conditional" : false
@@ -40,7 +40,7 @@
             {
                 "resultId": "pageF",
                 "label": "Eat a banana, yummy banana.",
-                "itemRef": "CharaItem04",
+                "itemRef": "CharaItem4",
                 "addItem": "JailorKey",
                 "rarity": "Character",
                 "conditional" : false
