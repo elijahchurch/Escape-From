@@ -4,32 +4,32 @@
         "pageText" : "You find yourself locked in a cell in an ominous stone basement. You sit on a cot with no furnishings. Moonlight shining down from a small, slightly damaged, barred window above you and the flickering of candle light further down the hall act as your only light sources. You need to find a way to escape this room.",
         "options": [
             {
-                "resultId": "page02",
+                "resultId": "pageA",
                 "label": "Bang on the cell bars and yell for 'help'.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page03",
+                "resultId": "pageB",
                 "label": "Check under the cot if you can find anything.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page04",
+                "resultId": "pageC",
                 "label": "Try to remove the frame of the damaged window.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page05",
+                "resultId": "pageD",
                 "label": "Smash the cot with your sword in a fit of rage.",
                 "itemRef": "CharaItem01",
                 "rarity": "Character",
                 "conditional" : false
             },
             {
-                "resultId": "page06",
+                "resultId": "pageE",
                 "label": "Conjure a delicious pie with your spatula while you ponder your situation.",
                 "itemRef": "CharaItem03",
                 "addItem": "Pie",
@@ -38,7 +38,7 @@
 
             },
             {
-                "resultId": "page07",
+                "resultId": "pageF",
                 "label": "Eat a banana, yummy banana.",
                 "itemRef": "CharaItem04",
                 "addItem": "JailorKey",
@@ -46,7 +46,7 @@
                 "conditional" : false
             },
             {
-                "resultId": "page08",
+                "resultId": "pageG",
                 "label": "Stay cool, stay calm, stay fresh. Put on those sunglasses.",
                 "itemRef": "Common8",
                 "rarity": "Common",
@@ -54,32 +54,32 @@
             }
         ]
     },
-    "page02": {
-        "id": "page02",
+    "pageA": {
+        "id": "pageA",
         "pageText" : "Your cries for help draw the attention of the castle jailor. He is a towering figure wearing a black executioner mask. In his hand, he holds a large axe, and at his waist you can see the jailor's key ring. 'Stop that hollering right now', he demands, gripping his axe tighter. 'I'm trying to enjoy my smoke break!'",
         "options": [
             {
-                "resultId": "page09",
+                "resultId": "pageA1",
                 "label": "Demand to be let out.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page10",
+                "resultId": "pageA2",
                 "label": "Tell him a knock-knock joke as an attempt to disarm him.",
                 "addItem": "JailorKey",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page11",
+                "resultId": "pageA3",
                 "label": "Ask him for a cigarette.",
                 "addItem": "Cigarette",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page12",
+                "resultId": "pageA4",
                 "label": "Spray perfume in his eyes.",
                 "itemRef": "Common6",
                 "addItem": "JailorKey",
@@ -87,7 +87,7 @@
                 "conditional" : false
             },
             {
-                "resultId": "page13",
+                "resultId": "pageA5",
                 "label": "Attempt to hit him on the head with your crowbar.",
                 "itemRef": "Common3",
                 "rarity": "Common",
@@ -95,37 +95,37 @@
             }
         ]
     },
-    "page03": {
-        "id": "page03",
+    "pageB": {
+        "id": "pageB",
         "pageText" : "Under the cot, you notice one of the stone tiles on the floor is loose. You lift it to reveal someone before you has dug a deep hole that leads into the dark. Suddenly you hear heavy footsteps coming down the hall. Without thinking you jump down into the hole. You stand up and find yourself in a murky cavern. A rocky passageway is dimly lit ahead, that forks two ways. You hear a clanging noise from one way and the sound of rushing water from the other way.",
         "options": [
             {
-                "resultId": "page14",
+                "resultId": "pageB1",
                 "label": "Head towards the clanging noise.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page15",
+                "resultId": "pageB2",
                 "label": "Head towards the water source.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page16",
+                "resultId": "pageB3",
                 "label": "Blindly check your immediate surroundings in the dark.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page17",
+                "resultId": "pageB4",
                 "label": "Light your lantern for better visibility.",
                 "itemRef": "Common1",
                 "rarity": "Common",
                 "conditional" : false
             },
             {
-                "resultId": "page18",
+                "resultId": "pageB5",
                 "label": "Ring your bell vigorously as an attempt at echolocation.",
                 "itemRef": "Common4",
                 "rarity": "Common",
@@ -133,37 +133,37 @@
             }
         ]
     },
-    "page04": {
-        "id": "page04",
+    "pageC": {
+        "id": "pageC",
         "pageText" : "With minimal effort, you are able to pull the frame of the damaged window out. You lift yourself up through the window and emerge atop a ditch at the base of the castle's interior courtyard garden. Vibrant and unnatural flora surrounds you here. A small path leads deeper into this thick vegetation to your left. Ahead of you looms the walls and entrance of a giant hedge maze. To your right, next to an eeire pond, a tree twists and weaves upwards to what looks like an open 2nd floor window.",
         "options": [
             {
-                "resultId": "page19",
+                "resultId": "pageC1",
                 "label": "Walk down the left path into the vegetation.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page20",
+                "resultId": "pageC2",
                 "label": "Enter the hedge maze",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page21",
+                "resultId": "pageC3",
                 "label": "Climb up the tree and go through the window.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page22",
+                "resultId": "pageC4",
                 "label": "Go fishing in the pond.",
                 "itemRef": "Common7",
                 "rarity": "Common",
                 "conditional" : false
             },
             {
-                "resultId": "page23",
+                "resultId": "pageC5",
                 "label": "Investigate the flora more closely with your magnifying glass.",
                 "itemRef": "Common5",
                 "rarity": "Common",
@@ -171,76 +171,76 @@
             }
         ]
     },
-    "page05": {
-        "id": "page05",
+    "pageD": {
+        "id": "pageD",
         "pageText" : "You angrily smash and splinter your cot in half. This draws the attention of the castle jailor - a towering man wearing a black executioner mask - who comes stampeding down the hallway with a large axe in hand. 'I built that cot from scratch in my WoodShop 101 class!', he yells. 'How dare you destroy my precious work', he yells quieter (some would say whimpers). 'You will pay for this!' He opens your cell and prepares to attack you.",
         "options": [
             {
-                "resultId": "page24",
+                "resultId": "pageD1",
                 "label": "Dive full force into him before he starts swinging.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page25",
+                "resultId": "pageD2",
                 "label": "Apologize for breaking the cot. Compliment his fine craftmanship.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page26",
+                "resultId": "pageD3",
                 "label": "Swing high with your sword to meet his imminent axe attack.",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page27",
+                "resultId": "pageD4",
                 "label": "Raise up your shield to deflect his imminent axe attack.",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page28",
+                "resultId": "pageD5",
                 "label": "Swing low with your sword to try to catch him off balance.",
                 "rarity": "Character",
                 "conditional" : true
             }
         ]
     },
-    "page06": {
-        "id": "page06",
+    "pageE": {
+        "id": "pageE",
         "pageText" : "Trying to make the most of your situation, you conjure a delicious applie pie with the flick of your wand. The aroma from the pie is mesmorizing. It wafts in the air and catches the attention of the castle jailor on his smoke break. He walks down to you. 'Can I have some of that pie? They don't feed my nothing but toad gruel down here', he says. You consider your answer, noticing the key ring attached to his waist.",
         "options": [
             {
-                "resultId": "page29",
+                "resultId": "pageE1",
                 "label": "Offer him some delicious pie out of the goodness of your heart.",
                 "removeItem": "Pie",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page30",
+                "resultId": "pageE2",
                 "label": "Barter the pie for your freedom.",
                 "removeItem": "Pie",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page31",
+                "resultId": "pageE3",
                 "label": "Throw the pie at his face.",
                 "removeItem": "Pie",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page32",
+                "resultId": "pageE4",
                 "label": "Scoff the whole pie down in front of him.",
                 "removeItem": "Pie",
                 "rarity": "Character",
                 "conditional" : true
             },
             {
-                "resultId": "page13",
+                "resultId": "pageA5",
                 "label": "Attempt to hit him on the head with your crowbar.",
                 "itemRef": "Common3",
                 "rarity": "Common",
@@ -248,37 +248,37 @@
             }
         ]
     },
-    "page07": {
-        "id": "page07",
+    "pageF": {
+        "id": "pageF",
         "pageText" : "You eat one of your bananas and throw the peel out through the bars. The castle jailor comes walking down the hall. He is a large man wearing an executioner mask, and the limited vision from the mask may be the reason he doesn't see the peel and obnoxiously slips on it. As he hits the floor, his key ring bounces off the ground and into your cell. He is knocked out cold. You unlock the door with the key and step out into the hallway. The hallway leads to stairs, but there are also two locked doors right in front of you.",
         "options": [
             {
-                "resultId": "page33",
+                "resultId": "pageF1",
                 "label": "Go up the stairs.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page34",
+                "resultId": "pageF2",
                 "label": "Check if anyone else is being held in the other cells next to yours.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page35",
+                "resultId": "pageF3",
                 "label": "Attempt to open the door on the right that is decorated with an ornate skull for a door knob.",
                 "removeItem": "JailorKey",
                 "rarity": "Story",
                 "conditional" : true
             },
             {
-                "resultId": "page36",
+                "resultId": "pageF4",
                 "label": "Attempt to open the door on the left that is marked 'Supplize'.",
                 "rarity": "Story",
                 "conditional" : true
             },
             {
-                "resultId": "page37",
+                "resultId": "pageF5",
                 "label": "Tie the jailor up with some of your rope in case he wakes up.",
                 "itemRef": "Common2",
                 "rarity": "Common",
@@ -286,37 +286,37 @@
             }
         ]
     },
-    "page08": {
-        "id": "page08",
+    "pageG": {
+        "id": "pageG",
         "pageText" : "You stylishly put your sunglasses on. A few minutes later, the castle jailor comes walking down the hall. He is a towering figure wearing a black executioner mask. You notice a key ring around his waist. Upon seeing you, he becomes confused. 'What's a cool person like you doing in this cell?', he asks.",
         "options": [
             {
-                "resultId": "page38",
+                "resultId": "pageG1",
                 "label": "Tell him there has been an obvious mistake, and you should actually be in the castle suite.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page39",
+                "resultId": "pageG2",
                 "label": "Let him try on your cool sunglasses.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page40",
+                "resultId": "pageG3",
                 "label": "Sit there stoically in silence.",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page41",
+                "resultId": "pageG4",
                 "label": "Show him your coolest marble from your collection.",
                 "itemRef": "Common9",
                 "rarity": "Common",
                 "conditional" : false
             },
             {
-                "resultId": "page42",
+                "resultId": "pageG5",
                 "label": "Check out your reflection in your mirror.",
                 "itemRef": "Common10",
                 "rarity": "Common",
@@ -324,8 +324,8 @@
             }
         ]
     },
-    "page09": {
-        "id": "page09",
+    "pageA1": {
+        "id": "pageA1",
         "pageText" : "You enter into a heated debate with the jailor. He stands firm and challenges any case you make for your freedom. Just as arguing with him gets to the point of futility, you try one last ploy and demand to speak to his manager. This causes the jailor to lurch in fear. 'Do you know Mr. Doom-Skin-Flayer?', he pitifully whispers.",
         "options": [
             {
@@ -360,37 +360,37 @@
             }
         ]
     },
-    "page10": {
-        "id": "page10",
+    "pageA2": {
+        "id": "pageA2",
         "pageText" : "'Knock-knock', you chirp. The jailor pauses, then reluctantly answers, 'Who's there?'. 'Sucker Punch', you reply. As the jailor is about to respond, you sucker punch him in the face. He is knocked out cold, and you are able to retrieve his keys and exit out into the hallway. The hallway leads to stairs, but there are also two locked doors right in front of you.",
         "options": [
             {
-                "resultId": "page33",
+                "resultId": "pageF1",
                 "label": "Go up the stairs",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page34",
+                "resultId": "pageF2",
                 "label": "Check if anyone else is being held in the other cells next to yours",
                 "rarity": "Generic",
                 "conditional" : true
             },
             {
-                "resultId": "page35",
+                "resultId": "pageF3",
                 "label": "Attempt to open the door on the right that is decorated with an ornate skull for a door knob",
                 "removeItem": "JailorKey",
                 "rarity": "Story",
                 "conditional" : true
             },
             {
-                "resultId": "page36",
+                "resultId": "pageF4",
                 "label": "Attempt to open the door on the left that is marked 'Supplize'",
                 "rarity": "Story",
                 "conditional" : true
             },
             {
-                "resultId": "page37",
+                "resultId": "pageF5",
                 "label": "Tie the jailor up with some of your rope in case he wakes up",
                 "itemRef": "Common2",
                 "rarity": "Common",
@@ -398,8 +398,8 @@
             }
         ]
     },
-    "page11": {
-        "id": "page11",
+    "pageA3": {
+        "id": "pageA3",
         "pageText" : "'Smoking is bad for you!', he declares. 'You're a bold one, aren't you? Bold and bad. Hmm... You're alright. Tell you want I'll let you smoke, but not in here. Management wouldn't be happy if I let you smoke indoors.' He hands you a cigarette and leads you to the break room, which lies up the stairs and to the left of the guard room. It's a small outdoor enclosure overlooking a steep, unscalable cliffside. This is a dead end, and your smoking 'buddy', the jailor, is keenly watching your next move.",
         "options": [
             {
@@ -434,37 +434,37 @@
             }
         ]
     },
-    "page12": {
-        "id": "page12",
+    "pageA4": {
+        "id": "pageA4",
         "pageText" : "You spray perfume in the jailor's eyes, causing him to squeal in agony. While he is distracted, you grab the key at his waist though the bars. He is still wiping his closed eyes with both of his hands as you open the door and slam it into him, knocking him out. Stepping out, you see the hallway here leads to stairs but there are also two locked doors in front of you.",
         "options": [
                 {
-                    "resultId": "page33",
+                    "resultId": "pageF1",
                     "label": "Go up the stairs",
                     "rarity": "Generic",
                     "conditional" : true
                 },
                 {
-                    "resultId": "page34",
+                    "resultId": "pageF2",
                     "label": "Check if anyone else is being held in the other cells next to yours",
                     "rarity": "Generic",
                     "conditional" : true
                 },
                 {
-                    "resultId": "page35",
+                    "resultId": "pageF3",
                     "label": "Attempt to open the door on the right that is decorated with an ornate skull for a door knob",
                     "removeItem": "JailorKey",
                     "rarity": "Story",
                     "conditional" : true
                 },
                 {
-                    "resultId": "page36",
+                    "resultId": "pageF4",
                     "label": "Attempt to open the door on the left that is marked 'Supplize'",
                     "rarity": "Story",
                     "conditional" : true
                 },
                 {
-                    "resultId": "page37",
+                    "resultId": "pageF5",
                     "label": "Tie the jailor up with some of your rope in case he wakes up",
                     "itemRef": "Common2",
                     "rarity": "Common",
@@ -472,8 +472,8 @@
                 }
         ]
     },
-    "page13": {
-        "id": "page13",
+    "pageA5": {
+        "id": "pageA5",
         "pageText" : "You attempt to hit the jailor with the crowbar, but you are too slow and clumsy, hitting the cell bars instead. 'A wise guy, huh!', the jailor growls. 'If you think you are so tough, let's see how you fair in the castle's gladiator arena!'. He puts a bag over your head and takes you somewhere else deeper in the castle. When the bag is eventually lifted, you find yourself in front of a shriveled old lady, the arena clerk. 'Previous occupation?', she click with her tongue. 'For registration purposes.'",
         "options": [
             {
@@ -508,8 +508,8 @@
             }
         ]
     },
-    "page35": {
-        "id": "page35",
+    "pageF3": {
+        "id": "pageF3",
         "pageText" : "You insert the jailor's key into the skull's mouth. You feel the key jam as you attempt to turn it. The skull's eyes suddenly light up a bright red, and it's jaws clamp down on the key, breaking it. 'Who dares disturb my eternal slumber', a ghoulish voice growls from inside.",
         "options": [
             {
@@ -546,7 +546,7 @@
 
             },
             {
-                "resultId": "page07",
+                "resultId": "",
                 "label": "Beat your chest in Gorilla fashion.",
                 "itemRef": "CharaItem04",
                 "rarity": "Character",
